@@ -2,9 +2,7 @@ using UnityEngine;
 
 public class menuChanger : MonoBehaviour
 {
-    public GameObject videoPanel;
-    public GameObject mathPanel;
-    public GameObject madPanel;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,10 +14,10 @@ public class menuChanger : MonoBehaviour
     {
 
     }
-    public void changeThat(string nameOfPanel)
+    public void LoadLevel0()
     {
-        videoPanel.SetActive(nameOfPanel == "video");
-        mathPanel.SetActive(nameOfPanel == "math");
-        madPanel.SetActive(nameOfPanel == "mad");
+        Debug.Log("Button Pressed");
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Sample Scene");
     }
 }
