@@ -11,10 +11,15 @@ public class BoatAI : MonoBehaviour
 
     public Transform sprite;   // assign your sprite child object here
 
+   
+   
+    public Animator animator;
+    public string stopAnimationName = "stor_båd_Clip";
+    public string moveAnimationName = "Frame_0";
+
+    
     private int currentWaypoint = 0;
-
     private bool isStopped = false;
-
     private float stopTimer = 0f;
 
     void Update()
@@ -66,6 +71,10 @@ public class BoatAI : MonoBehaviour
         {
             isStopped = true;
             stopTimer = stopTime;
+
+
+            if (animator !=null && stopAnimationName !="")
+                animator.Play(stopAnimationName);
         }
     }
 
@@ -76,6 +85,9 @@ public class BoatAI : MonoBehaviour
         if (stopTimer <= 0f)
         {
             isStopped = false;
+
+                if (animator != null && moveAnimationName != "")
+                    animator.Play(moveAnimationName);
         }
     }
 
