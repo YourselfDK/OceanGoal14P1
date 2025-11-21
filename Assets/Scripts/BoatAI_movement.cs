@@ -14,13 +14,26 @@ public class BoatAI : MonoBehaviour
    
    
     public Animator animator;
-    public string stopAnimationName = "stor_båd_Clip";
-    public string moveAnimationName = "Frame_0";
+    
+    public SpriteRenderer spriteRenderer;
+    public Sprite idleSprite;  
 
     
     private int currentWaypoint = 0;
     private bool isStopped = false;
     private float stopTimer = 0f;
+
+
+    void Start()
+    {
+    
+    animator.enabled = false;     // start with static sprite
+    
+    }
+
+
+
+
 
     void Update()
     {
@@ -72,9 +85,7 @@ public class BoatAI : MonoBehaviour
             isStopped = true;
             stopTimer = stopTime;
 
-
-            if (animator !=null && stopAnimationName !="")
-                animator.Play(stopAnimationName);
+            PlayStopAnimation(); 
         }
     }
 
@@ -86,10 +97,33 @@ public class BoatAI : MonoBehaviour
         {
             isStopped = false;
 
-                if (animator != null && moveAnimationName != "")
-                    animator.Play(moveAnimationName);
+            ReturnToIdle();
+
         }
     }
+
+
+
+
+    void PlayStopAnimation()
+    {
+
+    Debug.Log("PlayStopAnimation CALLED!");
+
+    animator.enabled = true;
+    animator.Play("stor_baad_Clip", 0, 0f);
+    
+    }
+
+
+    void ReturnToIdle()
+    {
+    Debug.Log("Animator DISABLED (ReturnToIdle)");
+    animator.enabled = false;        // disable animation
+    spriteRenderer.sprite = idleSprite;  // restore static sprite
+    
+    }
+
 
 
     void FaceCorrectDirection()
