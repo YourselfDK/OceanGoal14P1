@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: fc2bf1fb2392f02468decbbee19a4886
+guid: a002f0d62699c574b83e738539f35aee
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:AnimationClip
       assembly: UnityEngine.AnimationModule
-      name: Jellyfish big_Clip
-    second: {fileID: 7400000, guid: 0ef3be3c5b7f01c4fb4d5fe6e84bb7a5, type: 2}
+      name: Jellyfish small_Clip
+    second: {fileID: 7400000, guid: 37331b4d94125d64f9dfa56ce63ab8a0, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -107,7 +107,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638994246872326003
+  platformSettingsDirtyTick: 638994249111935363
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -134,7 +134,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
+    pivot: {x: 0.54545456, y: -0.8333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -142,9 +142,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 18
-      height: 23
-    spriteID: 2d80dde7c5044b94db3d88ff25308beb
+      width: 11
+      height: 12
+    spriteID: 60b6d6981f77de646baaf076fbb38268
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -155,59 +155,17 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 30
-      y: 4
-      width: 16
-      height: 23
-    spriteID: 5056a06a2f06de544bbc7d5269037be5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 30, y: 4}
-  - name: Frame_2
-    originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 28
-      y: 35
-      width: 14
-      height: 23
-    spriteID: 5874f78ba64ed6045a67acb21cd2e2b4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 28, y: 35}
-  - name: Frame_3
-    originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
+    pivot: {x: 0.44444445, y: -0.6923077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 35
-      width: 16
-      height: 23
-    spriteID: f1cc61bb7abc0d9458f6decef7233c3a
+      y: 24
+      width: 9
+      height: 13
+    spriteID: 1ab5578de573cb44988ed0901ebb180d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,18 +173,60 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 35}
+    uvTransform: {x: 4, y: 24}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.375, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 24
+      width: 8
+      height: 13
+    spriteID: c42fcef2ea133c3428139942d4f9a304
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 38, y: 24}
+  - name: Frame_3
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.6923077}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 21
+      y: 24
+      width: 9
+      height: 13
+    spriteID: 2e3bf67f77216914daab26954b7d9387
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 21, y: 24}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1380301454
+      value0: 3709355485
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Jellyfish big
+    name: Jellyfish small
     layerFlags: 0
     layerType: 0
     blendMode: 0
@@ -235,38 +235,38 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 7
-        y: 4
-        width: 18
-        height: 23
-      spriteId: 2d80dde7c5044b94db3d88ff25308beb
+        x: 10
+        y: 10
+        width: 11
+        height: 12
+      spriteId: 60b6d6981f77de646baaf076fbb38268
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 8
-        y: 4
-        width: 16
-        height: 23
-      spriteId: 5056a06a2f06de544bbc7d5269037be5
+        x: 12
+        y: 9
+        width: 9
+        height: 13
+      spriteId: 1ab5578de573cb44988ed0901ebb180d
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 9
-        y: 4
-        width: 14
-        height: 23
-      spriteId: 5874f78ba64ed6045a67acb21cd2e2b4
+        x: 13
+        y: 9
+        width: 8
+        height: 13
+      spriteId: c42fcef2ea133c3428139942d4f9a304
     - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: 8
-        y: 4
-        width: 16
-        height: 23
-      spriteId: f1cc61bb7abc0d9458f6decef7233c3a
+        x: 12
+        y: 9
+        width: 9
+        height: 13
+      spriteId: 2e3bf67f77216914daab26954b7d9387
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
