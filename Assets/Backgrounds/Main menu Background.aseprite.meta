@@ -1,13 +1,8 @@
 fileFormatVersion: 2
-guid: fc2bf1fb2392f02468decbbee19a4886
+guid: 98f0ce7e2e68d4f49b74864801bcf41f
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: Jellyfish big_Clip
-    second: {fileID: 7400000, guid: 0ef3be3c5b7f01c4fb4d5fe6e84bb7a5, type: 2}
+  externalObjects: {}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -77,7 +72,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 2
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -92,7 +87,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 2
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -107,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638994246872326003
+  platformSettingsDirtyTick: 638994251120083980
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -132,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: Main menu Background
     originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -142,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 18
-      height: 23
-    spriteID: 2d80dde7c5044b94db3d88ff25308beb
+      width: 320
+      height: 180
+    spriteID: 42bcd2b4fdf84f94c916e51f681b6458
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,61 +148,21 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
+  spriteSheetImportData: []
+  tileSetImportData:
+  - name: Background 0
     originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 30
-      y: 4
-      width: 16
-      height: 23
-    spriteID: 5056a06a2f06de544bbc7d5269037be5
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 30, y: 4}
-  - name: Frame_2
-    originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 28
-      y: 35
-      width: 14
-      height: 23
-    spriteID: 5874f78ba64ed6045a67acb21cd2e2b4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 28, y: 35}
-  - name: Frame_3
-    originalName: 
-    pivot: {x: 0.5, y: -0.17391305}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 35
-      width: 16
-      height: 23
-    spriteID: f1cc61bb7abc0d9458f6decef7233c3a
+      y: 4
+      width: 320
+      height: 180
+    spriteID: ba5c6dc96e4a00146b05eb142aa57d89
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -215,58 +170,259 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 35}
-  spriteSheetImportData: []
-  tileSetImportData: []
+    uvTransform: {x: 4, y: 4}
+  - name: Background 1 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.59210527}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 192
+      width: 320
+      height: 152
+    spriteID: 626ef7910b84eaa4e9ed00284bdc3b85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 192}
+  - name: Background 2 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.82568806}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 352
+      width: 320
+      height: 109
+    spriteID: 0e8a96113a3fced43b0f8be27c2570d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 352}
+  - name: Forgrund
+    originalName: 
+    pivot: {x: 0.5, y: 2.195122}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 469
+      width: 320
+      height: 41
+    spriteID: 1b760873697045944bb84bc2c814b3f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 469}
+  - name: Stones
+    originalName: 
+    pivot: {x: 1.9512196, y: 0.8737864}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 352
+      width: 82
+      height: 103
+    spriteID: fccd9e48492033d4eb9feefbcb7078fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 352}
+  - name: Stones algae
+    originalName: 
+    pivot: {x: 1.9753087, y: 0.8910891}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 422
+      y: 352
+      width: 81
+      height: 101
+    spriteID: edb002c7ece516849a5fd0ac8f672f1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 422, y: 352}
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1380301454
+      value0: 255141230
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Jellyfish big
-    layerFlags: 0
+    name: Background 0
+    layerFlags: 19
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Background 0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 7
-        y: 4
-        width: 18
-        height: 23
-      spriteId: 2d80dde7c5044b94db3d88ff25308beb
-    - name: Frame_1
-      frameIndex: 1
+        x: 0
+        y: 0
+        width: 320
+        height: 180
+      spriteId: ba5c6dc96e4a00146b05eb142aa57d89
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 1
+    uuid:
+      value0: 1720990458
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Background 1 Copy
+    layerFlags: 19
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Background 1 Copy
+      frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 8
-        y: 4
-        width: 16
-        height: 23
-      spriteId: 5056a06a2f06de544bbc7d5269037be5
-    - name: Frame_2
-      frameIndex: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 152
+      spriteId: 626ef7910b84eaa4e9ed00284bdc3b85
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 2
+    uuid:
+      value0: 1802060693
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Background 2 Copy
+    layerFlags: 19
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Background 2 Copy
+      frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 9
-        y: 4
-        width: 14
-        height: 23
-      spriteId: 5874f78ba64ed6045a67acb21cd2e2b4
-    - name: Frame_3
-      frameIndex: 3
+        x: 0
+        y: 0
+        width: 320
+        height: 109
+      spriteId: 0e8a96113a3fced43b0f8be27c2570d8
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 3
+    uuid:
+      value0: 1662367737
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Forgrund
+    layerFlags: 19
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Forgrund
+      frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 8
-        y: 4
-        width: 16
-        height: 23
-      spriteId: f1cc61bb7abc0d9458f6decef7233c3a
+        x: 0
+        y: 0
+        width: 320
+        height: 41
+      spriteId: 1b760873697045944bb84bc2c814b3f6
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 4
+    uuid:
+      value0: 2195302232
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Stones
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Stones
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 18
+        width: 82
+        height: 103
+      spriteId: fccd9e48492033d4eb9feefbcb7078fa
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  - layerIndex: 5
+    uuid:
+      value0: 1565427932
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Stones algae
+    layerFlags: 3
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Stones algae
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 20
+        width: 81
+        height: 101
+      spriteId: edb002c7ece516849a5fd0ac8f672f1d
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -300,5 +456,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 64, y: 64}
+  canvasSize: {x: 320, y: 180}
+  previousTextureSize: {x: 512, y: 1024}

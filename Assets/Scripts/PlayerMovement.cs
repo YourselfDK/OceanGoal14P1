@@ -41,4 +41,10 @@ public class playerMovement : MonoBehaviour
     {
         myBody.linearVelocity = movement * speed; // We set velocity of our rigidbody2D to the speed we defined.
     }
+
+    //This is for teleporting the player between levels
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        
+    }
 }
