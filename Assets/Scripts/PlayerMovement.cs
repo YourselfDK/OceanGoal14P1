@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class playerMovement : MonoBehaviour
 {
-
+    public float shopDistance = 20;
     private Vector2 movement; // We want to save the "Vector 2" from the user pressing WSAD.
     private Rigidbody2D myBody; // The rigidbody we want to move.
     private Animator myAnimator; // Animator variable we can adjust in the code
@@ -40,5 +40,15 @@ public class playerMovement : MonoBehaviour
     void FixedUpdate()
     {
         myBody.linearVelocity = movement * speed; // We set velocity of our rigidbody2D to the speed we defined.
+    }
+
+    //This is for teleporting the player between levels
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("NextLevelTP"))
+        {
+            Debug.Log("Player has entered");
+            transform.position += new Vector3(transform.position.x+shopDistance,transform.position.y);
+        }
     }
 }
