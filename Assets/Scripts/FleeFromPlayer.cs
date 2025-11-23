@@ -7,6 +7,7 @@ public class FleeFromPlayer : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
     public Transform player;         // Assign your Player object here
     public float fleeSpeed = 5f;     // How fast the NPC runs away
     public float fleeDistance = 5f;  // How close the player must be before NPC flees
