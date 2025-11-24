@@ -119,86 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &34706935
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1606379370}
-    m_Modifications:
-    - target: {fileID: -2253911629886400664, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_Name
-      value: Main menu Fish 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -2253911629886400664, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1160356261127867848, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9b9a8971aa9b7f04f99098b23649a5a3, type: 2}
-    - target: {fileID: 3626916397498700004, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_SortingOrder
-      value: -15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 600
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 600
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 155
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -44
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9720
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1431341443}
-  m_SourcePrefab: {fileID: -8435245712485981826, guid: 504844be30959354abda3c4995d9fe62, type: 3}
 --- !u!1001 &87387276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -237,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -301,7 +221,7 @@ Transform:
   m_GameObject: {fileID: 97557247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 104.92, z: -9720}
+  m_LocalPosition: {x: 0, y: 104.92, z: 0}
   m_LocalScale: {x: 600, y: 600, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -387,11 +307,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1001 &132250160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -430,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -490,91 +410,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
---- !u!1001 &179327176
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1606379370}
-    m_Modifications:
-    - target: {fileID: -2253911629886400664, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_Name
-      value: Main menu Fish 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -2253911629886400664, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1160356261127867848, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: cd779ee3c59fedc45a6f6395814d2f10, type: 2}
-    - target: {fileID: 3626916397498700004, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_SortingOrder
-      value: -16
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 600
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 600
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 155
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -44.000008
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9720
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1287028149}
-  m_SourcePrefab: {fileID: -8435245712485981826, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &254622125
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,11 +573,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &374106179
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1135,7 +975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 2ea60c2db5dc4924f98c6f261773f104, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 2ea60c2db5dc4924f98c6f261773f104, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1251,7 +1091,7 @@ Transform:
   m_GameObject: {fileID: 530659215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9720}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 600, y: 600, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1357,7 +1197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a002f0d62699c574b83e738539f35aee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a002f0d62699c574b83e738539f35aee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1433,7 +1273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1493,11 +1333,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &628835692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,7 +1364,7 @@ Transform:
   m_GameObject: {fileID: 628835692}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9720}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 600, y: 600, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1626,7 +1466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1702,7 +1542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1762,11 +1602,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1001 &662914522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1805,7 +1645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1865,11 +1705,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &786230628 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: fc2bf1fb2392f02468decbbee19a4886, type: 3}
@@ -1913,7 +1753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1978,11 +1818,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &1023771949
 GameObject:
   m_ObjectHideFlags: 0
@@ -2126,11 +1966,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &1037971140
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,7 +1997,7 @@ Transform:
   m_GameObject: {fileID: 1037971140}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9720}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 600, y: 600, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2243,11 +2083,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1001 &1147648732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2286,7 +2126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2350,7 +2190,7 @@ Transform:
   m_GameObject: {fileID: 1157896173}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9720}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 600, y: 600, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2452,7 +2292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2512,14 +2352,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07dc8a648cb0a0a418cd2b1b7cd60d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuJellyfishSwim
-  minSpeed: 0.5
-  maxSpeed: 1.5
+  minSpeed: 0.1
+  maxSpeed: 0.1
   changeDirectionTimeMin: 1
   changeDirectionTimeMax: 3
-  leftLimit: -8
-  rightLimit: 8
-  bottomLimit: -4
-  topLimit: 3.5
+  leftLimit: -1.5
+  rightLimit: 1.5
+  bottomLimit: -0.9
+  topLimit: 0.6
 --- !u!1 &1231725951
 GameObject:
   m_ObjectHideFlags: 0
@@ -2675,11 +2515,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1001 &1248015795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2722,7 +2562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 56e000599c4400649bc34079752190d3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 56e000599c4400649bc34079752190d3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2762,33 +2602,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 56e000599c4400649bc34079752190d3, type: 3}
   m_PrefabInstance: {fileID: 1248015795}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1287028145 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-  m_PrefabInstance: {fileID: 179327176}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1287028146 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 443ed0944dabd2a42aa057c75764cd6c, type: 3}
-  m_PrefabInstance: {fileID: 179327176}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1287028149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1287028145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
 --- !u!1 &1338746392
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,7 +2761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3122,33 +2935,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393474239}
   m_CullTransparentMesh: 1
---- !u!1 &1431341439 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-  m_PrefabInstance: {fileID: 34706935}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1431341440 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 504844be30959354abda3c4995d9fe62, type: 3}
-  m_PrefabInstance: {fileID: 34706935}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1431341443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431341439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
 --- !u!1 &1474995838 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
@@ -3171,11 +2957,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &1479736016
 GameObject:
   m_ObjectHideFlags: 0
@@ -3371,11 +3157,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &1606379369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3412,8 +3198,6 @@ RectTransform:
   - {fileID: 97557248}
   - {fileID: 2063589610}
   - {fileID: 1248015796}
-  - {fileID: 1431341440}
-  - {fileID: 1287028146}
   - {fileID: 475989657}
   - {fileID: 530659216}
   - {fileID: 1037971141}
@@ -3502,7 +3286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3578,7 +3362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3638,11 +3422,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &1679087652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3783,7 +3567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4003,7 +3787,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: fc2bf1fb2392f02468decbbee19a4886, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: fc2bf1fb2392f02468decbbee19a4886, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4058,14 +3842,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07dc8a648cb0a0a418cd2b1b7cd60d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuJellyfishSwim
-  minSpeed: 0.5
-  maxSpeed: 1.5
+  minSpeed: 0.1
+  maxSpeed: 0.1
   changeDirectionTimeMin: 1
   changeDirectionTimeMax: 3
-  leftLimit: -8
-  rightLimit: 8
-  bottomLimit: -4
-  topLimit: 3.5
+  leftLimit: -1.5
+  rightLimit: 1.5
+  bottomLimit: -0.9
+  topLimit: 0.6
 --- !u!1 &1788407760 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 1af295fd8d8a40d44a40ba89caa47375, type: 3}
@@ -4088,11 +3872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &1801812072
 GameObject:
   m_ObjectHideFlags: 0
@@ -4218,11 +4002,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d54b85b35d306e24ca0e31e0ad2c70a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuFishSwim
-  speed: 2
-  leftLimit: -13
-  rightLimit: 13
-  verticalAmplitude: 0.45
-  verticalFrequency: 1
+  speed: 0.4
+  leftLimit: -2.3
+  rightLimit: 2.3
+  verticalAmplitude: -0.16
+  verticalFrequency: 0.15
 --- !u!1 &2010921431
 GameObject:
   m_ObjectHideFlags: 0
@@ -4340,7 +4124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: e5b3a99db8117a749aa5a2b4475b6ed0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4404,7 +4188,7 @@ Transform:
   m_GameObject: {fileID: 2063589609}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 104.92, z: -9720}
+  m_LocalPosition: {x: 0, y: 104.92, z: 0}
   m_LocalScale: {x: 600, y: 600, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4506,7 +4290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: b1ec36733f1a6ea47899790b7c5a1a0b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9720
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: b1ec36733f1a6ea47899790b7c5a1a0b, type: 3}
       propertyPath: m_LocalRotation.w
