@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5c77f9303fb2fec4eada2d9b19ec1e81
+guid: 9afdac3b84044364e90b32c35d040ffa
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -74,7 +74,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 2
     importHiddenLayers: 0
-    layerImportMode: 0
+    layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -89,7 +89,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 2
     importHiddenLayers: 0
-    layerImportMode: 0
+    layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638995852231806475
+  platformSettingsDirtyTick: 638995851016268418
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,7 +127,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Background 0
+  - name: Background surface level 6
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 320
       height: 180
-    spriteID: 435729586e1d57c43ba273b14980c7f1
+    spriteID: 23824b1620648b2438a373e94132d676
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,72 +148,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Background 1
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 192
-      width: 320
-      height: 135
-    spriteID: 60810c447bc550346ace26382d3141cf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 192}
-  - name: Background 2
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 335
-      width: 320
-      height: 108
-    spriteID: 8d3c294ca71d2a4419dddb5e92c09aa8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 335}
-  - name: Forgrund
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 451
-      width: 320
-      height: 58
-    spriteID: 2b05b2edbd18b91448a440cd501a43c2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 451}
   spriteSheetImportData: []
   tileSetImportData:
-  - name: Background 0
+  - name: Backgrund 0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 9
@@ -225,7 +162,7 @@ ScriptedImporter:
       y: 4
       width: 320
       height: 180
-    spriteID: 435729586e1d57c43ba273b14980c7f1
+    spriteID: 4ca738c12b740ff4aae3bab7dda67bf9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -234,9 +171,51 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Background 1
+  - name: water surface
     originalName: 
-    pivot: {x: 0.5, y: 0.6666667}
+    pivot: {x: 0.5, y: 4.285714}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 261
+      width: 320
+      height: 21
+    spriteID: 452606180617ff14e8ed153e836be955
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 261}
+  - name: water surface_1
+    originalName: 
+    pivot: {x: 0.5, y: 6.428571}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 290
+      width: 320
+      height: 14
+    spriteID: 227d37cbe6d59d144a4789f37e1e37cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 290}
+  - name: Clouds
+    originalName: 
+    pivot: {x: 0.5280528, y: 1.4754099}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -244,9 +223,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 192
-      width: 320
-      height: 135
-    spriteID: 60810c447bc550346ace26382d3141cf
+      width: 303
+      height: 61
+    spriteID: 9996cf08086a6f84b96fcaee44d07e8a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -255,62 +234,20 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 192}
-  - name: Background 2
-    originalName: 
-    pivot: {x: 0.5, y: 0.8333333}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 335
-      width: 320
-      height: 108
-    spriteID: 8d3c294ca71d2a4419dddb5e92c09aa8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 335}
-  - name: Forgrund
-    originalName: 
-    pivot: {x: 0.5, y: 1.5517242}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 451
-      width: 320
-      height: 58
-    spriteID: 2b05b2edbd18b91448a440cd501a43c2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 451}
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 255141230
+      value0: 974959585
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Background 0
-    layerFlags: 3
+    name: Backgrund 0
+    layerFlags: 19
     layerType: 0
     blendMode: 0
     cells:
-    - name: Background 0
+    - name: Backgrund 0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -318,82 +255,82 @@ ScriptedImporter:
         y: 0
         width: 320
         height: 180
-      spriteId: 435729586e1d57c43ba273b14980c7f1
+      spriteId: 4ca738c12b740ff4aae3bab7dda67bf9
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   - layerIndex: 1
     uuid:
-      value0: 1821225171
+      value0: 2878047078
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Background 1
+    name: water surface
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Background 1
+    - name: water surface
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 320
-        height: 135
-      spriteId: 60810c447bc550346ace26382d3141cf
+        height: 21
+      spriteId: 452606180617ff14e8ed153e836be955
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   - layerIndex: 2
     uuid:
-      value0: 3387309112
+      value0: 2932831366
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Background 2
+    name: water surface_1
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Background 2
+    - name: water surface_1
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
-        y: 0
+        y: 10
         width: 320
-        height: 108
-      spriteId: 8d3c294ca71d2a4419dddb5e92c09aa8
+        height: 14
+      spriteId: 227d37cbe6d59d144a4789f37e1e37cd
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   - layerIndex: 3
     uuid:
-      value0: 1662367737
+      value0: 840910424
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Forgrund
+    name: Clouds
     layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: Forgrund
+    - name: Clouds
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 320
-        height: 58
-      spriteId: 2b05b2edbd18b91448a440cd501a43c2
+        x: 12
+        y: 81
+        width: 303
+        height: 61
+      spriteId: 9996cf08086a6f84b96fcaee44d07e8a
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -428,4 +365,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 320, y: 180}
-  previousTextureSize: {x: 512, y: 1024}
+  previousTextureSize: {x: 512, y: 512}
