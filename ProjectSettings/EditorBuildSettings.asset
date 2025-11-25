@@ -12,8 +12,50 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: b59eef386bc32374983751ab2cbb71c8
   - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 8a1521d2ed6af2042a1b608cefc9c785
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: ac6ccd2423b76a245a8bbbda5529feb6
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 947b03f9cd73d8b40b211f61adb76d4d
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: 2b16dd2408ff1c5499187bfe4bccbbb3
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 5bf6cd5b7939a7e4ebb210a5eaf3b487
+  - enabled: 1
+    path: Assets/Scenes/Enemyfollow.unity
+    guid: a4057c0bd32aac040975a9d05e2b5988
+  - enabled: 1
+    path: Assets/Scenes/Level 6.unity
+    guid: d3e0171ca7f328244ae20e4e49c07a95
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/ShopTeleport.unity
+    guid: 17d41dd5064e7d14e9335a5852bbcdd8
+  - enabled: 1
+    path: Assets/Scenes/Enemy.unity
+    guid: 3981eb0f2e83cb646ad71eeb41713f60
+  - enabled: 1
+    path: Assets/Scenes/Coincollection.unity
+    guid: e1cb0957b359f5940b27cdabf43cb10f
+  - enabled: 1
+    path: Assets/Scenes/BoatAI.unity
+    guid: 19696f035c964694e8e0b6be5000d9b3
+  - enabled: 1
+    path: Assets/Scenes/PauseMenu.unity
+    guid: 4e0398abb123c604cbe57e964aa80c73
+  - enabled: 1
+    path: Assets/Scenes/AIgetschased.unity
+    guid: f7ccb26c0e53b4c45b821c18c40436ca
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 83ddbae61269147738ae31643c9b2417
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
