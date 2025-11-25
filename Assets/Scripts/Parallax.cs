@@ -11,6 +11,9 @@ public class Parallax : MonoBehaviour
     Vector2 travel => (Vector2)cam.transform.position - startPosition;
 
     float distanceFromSubject => transform.position.z - subject.position.z;
+    //float parallaxModifier=5;
+    //Enable these two, and disable public Transform subject to not be reliant on a subject.
+    //float distanceFromSubject => transform.position.z - parallaxModifier;
     float clippingPlane => (cam.transform.position.z + (distanceFromSubject > 0 ? cam.farClipPlane : cam.nearClipPlane));
     float parallaxFactor => Mathf.Abs(distanceFromSubject) / clippingPlane;
 
