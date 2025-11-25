@@ -119,6 +119,42 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &35545986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 624386763132329349, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
+  m_PrefabInstance: {fileID: 1067946978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &35545989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35545986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886251e9a18ece04ea8e61686c173e1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachinePositionComposer
+  CameraDistance: 10
+  DeadZoneDepth: 0
+  Composition:
+    ScreenPosition: {x: 0, y: 0}
+    DeadZone:
+      Enabled: 0
+      Size: {x: 0.2, y: 0.2}
+    HardLimits:
+      Enabled: 0
+      Size: {x: 0.8, y: 0.8}
+      Offset: {x: 0, y: 0}
+  CenterOnActivate: 1
+  TargetOffset: {x: 0, y: 0, z: 0}
+  Damping: {x: 1, y: 1, z: 1}
+  Lookahead:
+    Enabled: 0
+    Time: 0
+    Smoothing: 0
+    IgnoreY: 0
 --- !u!1 &146466107
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,8 +200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!212 &146466110
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -269,8 +305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!212 &193076431
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -414,8 +450,8 @@ Transform:
   m_GameObject: {fileID: 258106463}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.40845, y: -0.48272, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 10.98, y: 0.84, z: 0}
+  m_LocalScale: {x: 1, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -508,8 +544,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!212 &592182716
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -580,6 +616,7 @@ GameObject:
   - component: {fileID: 593482784}
   - component: {fileID: 593482783}
   - component: {fileID: 593482782}
+  - component: {fileID: 593482785}
   m_Layer: 0
   m_Name: LevelTeleporter
   m_TagString: NextLevelTP
@@ -733,6 +770,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &593482785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593482780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parallax
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!1 &962279706
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,8 +829,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!212 &962279709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -851,6 +902,10 @@ PrefabInstance:
       value: CinemachineCamera
       objectReference: {fileID: 0}
     - target: {fileID: 6651575605392200636, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651575605392200636, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 1733803762}
@@ -864,7 +919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7678990198488457657, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -21
       objectReference: {fileID: 0}
     - target: {fileID: 7678990198488457657, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -894,10 +949,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7275747354040107300, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 624386763132329349, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 35545989}
   m_SourcePrefab: {fileID: 100100000, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
 --- !u!1 &1406886489
 GameObject:
@@ -941,13 +1000,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406886489}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!50 &1406886492
 Rigidbody2D:
   serializedVersion: 5
@@ -1124,8 +1183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!212 &1644495275
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1226,13 +1285,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731619534}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!50 &1731619537
 Rigidbody2D:
   serializedVersion: 5
@@ -1386,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6950502969229898735, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 6950502969229898735, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1471,8 +1530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!212 &1750140698
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1543,6 +1602,7 @@ GameObject:
   - component: {fileID: 1828927720}
   - component: {fileID: 1828927719}
   - component: {fileID: 1828927722}
+  - component: {fileID: 1828927723}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1591,7 +1651,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 34
   orthographic: 1
   orthographic size: 0.9
   m_Depth: -1
@@ -1668,6 +1728,38 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1828927723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828927718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineBrain
+  ShowDebugText: 0
+  ShowCameraFrustum: 1
+  IgnoreTimeScale: 0
+  WorldUpOverride: {fileID: 0}
+  ChannelMask: -1
+  UpdateMethod: 2
+  BlendUpdateMethod: 1
+  LensModeOverride:
+    Enabled: 0
+    DefaultMode: 2
+  DefaultBlend:
+    Style: 1
+    Time: 2
+    CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  CustomBlends: {fileID: 0}
 --- !u!1 &2010684976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,8 +1805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!212 &2010684979
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1815,13 +1907,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123651086}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!50 &2123651089
 Rigidbody2D:
   serializedVersion: 5
@@ -1998,8 +2090,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 1733803762}
 --- !u!212 &2143522410
 SpriteRenderer:
   m_ObjectHideFlags: 0
