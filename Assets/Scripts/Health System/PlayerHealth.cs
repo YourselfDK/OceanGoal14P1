@@ -20,6 +20,18 @@ public class PlayerHealth : MonoBehaviour
             Die();
         }
     }
+    public void Heal(int amount)
+    {
+        health += amount;
+
+        // Clamp between 0 and maxHealth
+        if (health > maxHealth)
+            health = maxHealth;
+        if (health < 0)
+            health = 0;
+
+        Debug.Log("Player healed. Current health: " + health);
+    }
     void Die()
     {
         // Handle player death (e.g., play animation, restart level, etc.)
