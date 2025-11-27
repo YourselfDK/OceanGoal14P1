@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fbe2bb0dcd86148c0bc6399798d5ef36
+guid: e3d101a3fdd42044ea7f8dbc5d962ab8
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: "Vanddra\u030Abe"
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.47368422, y: -0.033333335}
+    pivot: {x: 0.48, y: -0.5833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 19
-      height: 30
-    spriteID: 23ebefd6bd509433981f50140d2ec321
+      width: 25
+      height: 12
+    spriteID: 223fbab242722a744b30c6a897ffd672
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,30 +148,120 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Frame_1
+    originalName: 
+    pivot: {x: 0.48, y: -0.5833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 24
+      width: 25
+      height: 12
+    spriteID: 05bba39507e5dd14e9973703e1cd13d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 24}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.48, y: -0.5833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 44
+      width: 25
+      height: 12
+    spriteID: 9cd126e87c280824d8a7fd1396882d8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 44}
+  - name: Frame_3
+    originalName: 
+    pivot: {x: 0.48, y: -0.5833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 64
+      width: 25
+      height: 12
+    spriteID: b2e609635d917bc40a39434994c6d0ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 64}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2021361323
+      value0: 271191758
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: "Vanddra\u030Abe"
+    name: FishCod
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: "Vanddr\xE5be"
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 7
-        y: 1
-        width: 19
-        height: 30
-      spriteId: 23ebefd6bd509433981f50140d2ec321
+        x: 4
+        y: 7
+        width: 25
+        height: 12
+      spriteId: 223fbab242722a744b30c6a897ffd672
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 7
+        width: 25
+        height: 12
+      spriteId: 05bba39507e5dd14e9973703e1cd13d4
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 7
+        width: 25
+        height: 12
+      spriteId: 9cd126e87c280824d8a7fd1396882d8e
+    - name: Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 7
+        width: 25
+        height: 12
+      spriteId: b2e609635d917bc40a39434994c6d0ab
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -182,4 +272,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 32, y: 64}
+  previousTextureSize: {x: 64, y: 128}
