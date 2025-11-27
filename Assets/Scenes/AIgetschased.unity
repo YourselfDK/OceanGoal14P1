@@ -463,6 +463,13 @@ MonoBehaviour:
   player: {fileID: 1950812227}
   fleeSpeed: 3
   fleeDistance: 3
+  fleeDuration: 2
+  speed: 2
+  leftLimit: -10
+  rightLimit: 10
+  verticalAmplitude: 0.2
+  verticalFrequency: 1
+  healthAmount: 10
 --- !u!195 &845274998
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -753,8 +760,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FleeFromPlayer
   player: {fileID: 634335709}
-  fleeSpeed: 2
+  fleeSpeed: 4
   fleeDistance: 3
+  fleeDuration: 2
+  speed: 2
+  leftLimit: -8
+  rightLimit: 8
+  verticalAmplitude: 0.2
+  verticalFrequency: 1
+  healthAmount: 10
 --- !u!50 &1774662658
 Rigidbody2D:
   serializedVersion: 5
@@ -853,7 +867,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 5136264299434262551, guid: 7b2b0f82923a5394aa2db54775f14f6b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.18, y: 0.14}
