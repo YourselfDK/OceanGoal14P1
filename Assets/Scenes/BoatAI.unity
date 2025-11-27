@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 292055807}
   m_Layer: 0
   m_Name: hitbox
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 478251322}
   m_Layer: 0
   m_Name: hitbox
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 564617638}
   m_Layer: 0
   m_Name: hitbox
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 715808536}
   m_Layer: 0
   m_Name: hitbox
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -928,7 +928,7 @@ GameObject:
   - component: {fileID: 1008878726}
   m_Layer: 0
   m_Name: hitbox
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1078,7 +1078,7 @@ GameObject:
   - component: {fileID: 1087592049}
   m_Layer: 0
   m_Name: hitbox
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
