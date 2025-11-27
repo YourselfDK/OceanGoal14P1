@@ -1,5 +1,4 @@
-{
-    using UnityEngine;
+using UnityEngine;
 using System;
  
 public class CoinManager : MonoBehaviour
@@ -68,6 +67,4 @@ public class CoinManager : MonoBehaviour
         Save();
         OnCoinsChanged?.Invoke(coins);
     }
-}
-
 }

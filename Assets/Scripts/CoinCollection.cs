@@ -11,8 +11,9 @@ public class CoinCollection : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
 
-
-    {
+}
+{
+    
        
         if (other.transform.tag == "Coin")
         {
@@ -21,5 +22,7 @@ public class CoinCollection : MonoBehaviour
             Debug.Log(Coin);
             Destroy (other.gameObject);
         }
-    }
+
+        
+    
 }
