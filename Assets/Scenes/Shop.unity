@@ -3997,7 +3997,6 @@ GameObject:
   - component: {fileID: 1964766335}
   - component: {fileID: 1964766337}
   - component: {fileID: 1964766336}
-  - component: {fileID: 1964766338}
   m_Layer: 5
   m_Name: Coin
   m_TagString: Untagged
@@ -4123,19 +4122,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964766334}
   m_CullTransparentMesh: 1
---- !u!114 &1964766338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964766334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
-  coinText: {fileID: 0}
 --- !u!1 &1999488445
 GameObject:
   m_ObjectHideFlags: 0
