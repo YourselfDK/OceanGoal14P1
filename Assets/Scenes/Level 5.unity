@@ -164,13 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!212 &293215764
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -274,13 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!212 &323511969
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -384,13 +374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!212 &369937558
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -496,13 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!50 &785390125
 Rigidbody2D:
   serializedVersion: 5
@@ -679,13 +659,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!212 &788016497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -985,13 +960,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!50 &1063075105
 Rigidbody2D:
   serializedVersion: 5
@@ -1229,13 +1199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!212 &1081064528
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1339,13 +1304,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!212 &1583350905
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1624,13 +1584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!212 &1858136824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1734,13 +1689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!212 &2050407538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1846,13 +1796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-<<<<<<< HEAD
   cam: {fileID: 1828927720}
   subject: {fileID: 1592913090}
-=======
-  cam: {fileID: 0}
-  subject: {fileID: 0}
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
 --- !u!50 &2066939020
 Rigidbody2D:
   serializedVersion: 5
@@ -1992,7 +1937,4 @@ SceneRoots:
   - {fileID: 1067946978}
   - {fileID: 932470373}
   - {fileID: 896435599}
-<<<<<<< HEAD
   - {fileID: 848582031}
-=======
->>>>>>> 40b398b53a2769907dc6537f8541834b38e3273f
