@@ -164,8 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!212 &293215764
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!212 &323511969
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -374,8 +374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!212 &369937558
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -434,6 +434,193 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &512324532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2253911629886400664, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_Name
+      value: long tuna player final
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.18152
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.54938
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 512324536}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 512324535}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 512324534}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 512324537}
+  m_SourcePrefab: {fileID: -8435245712485981826, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+--- !u!1 &512324533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+  m_PrefabInstance: {fileID: 512324532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &512324534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512324533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: 7e0cefbd452be194c9b7fe07b8eaaef9, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: InGame
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!50 &512324535
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512324533}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &512324536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512324533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0609a8cdceec9b943a1d413ea489b1b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playerMovement
+  shopDistance: 20
+  speed: 5
+--- !u!70 &512324537
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512324533}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.019999996, y: 0.175}
+  m_Size: {x: 0.32, y: 0.29}
+  m_Direction: 0
+--- !u!4 &512324540 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 406c0efecf45222459155e8667b0c885, type: 3}
+  m_PrefabInstance: {fileID: 512324532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &785390122
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,8 +668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!50 &785390125
 Rigidbody2D:
   serializedVersion: 5
@@ -659,8 +846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!212 &788016497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -899,8 +1086,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!50 &1063075105
 Rigidbody2D:
   serializedVersion: 5
@@ -1134,8 +1321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!212 &1081064528
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1239,8 +1426,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!212 &1583350905
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1481,8 +1668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!212 &1858136824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1586,8 +1773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!212 &2050407538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1693,8 +1880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 0}
-  subject: {fileID: 0}
+  cam: {fileID: 1828927720}
+  subject: {fileID: 512324540}
 --- !u!50 &2066939020
 Rigidbody2D:
   serializedVersion: 5
@@ -1834,3 +2021,4 @@ SceneRoots:
   - {fileID: 1067946978}
   - {fileID: 932470373}
   - {fileID: 896435599}
+  - {fileID: 512324532}
