@@ -14,12 +14,14 @@ public class CoinCollection : MonoBehaviour
             // Add one coin via the manager
             if (CoinManager.Instance != null)
             {
-                CoinManager.Instance.AddCoins(1);
+                CoinManager.Instance.AddCoins(50);
             }
             else
             {
                 Debug.LogWarning("CoinManager instance not found!");
+             
             }
+            
 
             Destroy(other.gameObject);
         }
