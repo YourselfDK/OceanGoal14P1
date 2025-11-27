@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NextLevelTP
   - Coin
+  - Enemy
   layers:
   - Default
   - TransparentFX
