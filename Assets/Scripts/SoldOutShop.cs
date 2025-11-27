@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShopItem : MonoBehaviour
+public class ShopItemVisual : MonoBehaviour
 {
     public Button buyButton;         // The button for purchasing
     public GameObject soldOutPanel;  // The red panel covering the whole item

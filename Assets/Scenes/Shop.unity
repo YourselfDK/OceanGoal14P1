@@ -2849,6 +2849,51 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
   m_PrefabInstance: {fileID: 490248617}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1359309339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1359309341}
+  - component: {fileID: 1359309340}
+  m_Layer: 0
+  m_Name: Coins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1359309340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359309339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88efb81bc91ed4127b3e12676aa40959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinUI
+  coinText: {fileID: 1964766336}
+--- !u!4 &1359309341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359309339}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 532.465, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1393559137
 GameObject:
   m_ObjectHideFlags: 0
@@ -3953,7 +3998,7 @@ GameObject:
   - component: {fileID: 1964766337}
   - component: {fileID: 1964766336}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4077,25 +4122,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964766334}
   m_CullTransparentMesh: 1
---- !u!1 &1966545030 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
-  m_PrefabInstance: {fileID: 5887227140541130767}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1966545033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966545030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bf1678585fde417db25666f9d81a01a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShopItem
-  buyButton: {fileID: 2133447465}
-  soldOutPanel: {fileID: 673308454}
 --- !u!1 &1999488445
 GameObject:
   m_ObjectHideFlags: 0
@@ -4692,9 +4718,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 673308455}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1966545033}
     - targetCorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2133447468}
@@ -4707,3 +4730,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1393559141}
   - {fileID: 41476949}
+  - {fileID: 1359309341}
