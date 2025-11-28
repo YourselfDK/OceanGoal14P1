@@ -444,6 +444,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12bbc93ee84b6c43b90bc4ca09edc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainManager
+  HealthCount: 0
+  coinText: {fileID: 0}
 --- !u!4 &163066958
 Transform:
   m_ObjectHideFlags: 0
