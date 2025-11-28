@@ -7,7 +7,7 @@ public class MainManager : MonoBehaviour
     public static MainManager Instance;
     public int HealthCount;
     public int CoinCount;
-    //public TextMeshProUGUI coinText;
+ 
 
     private void Awake()
     {
@@ -20,20 +20,5 @@ public class MainManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-
-        if (other.transform.tag == "Coin")
-        {
-
-
-            CoinCount++;
-            //coinText.text = "Coins:" + CoinCount.ToString();
-            Debug.Log(CoinCount);
-            Destroy(other.gameObject);
-
-
-        }
-
-    }
+   
 }
