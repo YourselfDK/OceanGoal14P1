@@ -1,16 +1,30 @@
 using UnityEngine;
 
-public class FleeFromPlayer : MonoBehaviour
+// Which way should the fish start swimming?
+public enum StartDirection
+{
+    Left,
+    Right,
+    Random
+}
 
+// Which way is the sprite art facing when flipX = FALSE?
+public enum SpriteBaseFacing
+{
+    Right,
+    Left
+}
+
+public class FleeFromPlayer : MonoBehaviour
 {
     [Header("Flee Settings")]
-    public Transform player;         // Assign your Player object here
-    public float fleeSpeed = 5f;     // How fast the fish swims away
-    public float fleeDistance = 5f;  // How close the player must be before fish flees
+    public Transform player;
+    public float fleeSpeed = 5f;
+    public float fleeDistance = 5f;
 
     [Tooltip("How long (in seconds) the fish keeps fleeing after being triggered")]
-    public float fleeDuration = 2f;  // <-- how long to keep fleeing
-    private float fleeTimer = 0f;    // <-- counts down
+    public float fleeDuration = 2f;
+    private float fleeTimer = 0f;
 
     [Header("Idle Swim - Horizontal Movement")]
     [SerializeField] private float speed = 2f;
@@ -22,7 +36,14 @@ public class FleeFromPlayer : MonoBehaviour
     [SerializeField] private float verticalFrequency = 1f;
 
     [Header("Player Interaction")]
-    [SerializeField] private int healthAmount = 10;  // Set per fish in Inspector
+    [SerializeField] private int healthAmount = 10;
+
+    [Header("Starting Direction")]
+    [SerializeField] private StartDirection startDirection = StartDirection.Right;
+
+    [Header("Sprite Setup")]
+    [Tooltip("Which way does the sprite face when flipX is FALSE?")]
+    [SerializeField] private SpriteBaseFacing spriteBaseFacing = SpriteBaseFacing.Left; // DEFAULT = Left
 
     private float startY;
     private float randomOffset;
@@ -31,10 +52,30 @@ public class FleeFromPlayer : MonoBehaviour
     private SpriteRenderer sr;
     private Rigidbody2D rb;
 
+    private bool wasFleeing = false;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+
+        // Pick initial direction
+        switch (startDirection)
+        {
+            case StartDirection.Left:
+                movingRight = false;
+                break;
+
+            case StartDirection.Right:
+                movingRight = true;
+                break;
+
+            case StartDirection.Random:
+                movingRight = Random.value > 0.5f;
+                break;
+        }
+
+        ApplySpriteFacing();
 
         startY = transform.position.y;
         randomOffset = Random.Range(0f, 100f);
@@ -50,79 +91,101 @@ public class FleeFromPlayer : MonoBehaviour
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // If player is close enough, (re)start the flee timer
+        // Trigger flee
         if (distance < fleeDistance)
         {
             fleeTimer = fleeDuration;
         }
 
-        // Count down the flee timer
-        if (fleeTimer > 0f)
+        bool isFleeing = fleeTimer > 0f;
+
+        if (isFleeing)
         {
             fleeTimer -= Time.deltaTime;
             FleePlayer();
         }
         else
         {
+            if (wasFleeing)
+            {
+                // Prevent snapping back vertically
+                float wobble = Mathf.Sin((Time.time + randomOffset) * verticalFrequency) * verticalAmplitude;
+                startY = transform.position.y - wobble;
+            }
+
             IdleSwim();
         }
+
+        wasFleeing = isFleeing;
     }
 
     private void FleePlayer()
     {
-        // Direction away from player
         Vector2 direction = (Vector2)(transform.position - player.position);
         direction = direction.normalized;
 
-        // Move via Rigidbody
+        // Horizontal fleeing only
+        direction.y = 0f;
+
         rb.linearVelocity = direction * fleeSpeed;
 
-        // Flip sprite depending on direction.x
+        // Flip sprite
         if (direction.x > 0f && !movingRight)
         {
             movingRight = true;
-            FlipSprite();
+            ApplySpriteFacing();
         }
         else if (direction.x < 0f && movingRight)
         {
             movingRight = false;
-            FlipSprite();
+            ApplySpriteFacing();
         }
     }
 
     private void IdleSwim()
     {
-        // When idle, stop physics movement
         rb.linearVelocity = Vector2.zero;
 
-        // Horizontal movement
         float dir = movingRight ? 1f : -1f;
         Vector3 pos = transform.position;
         pos.x += dir * speed * Time.deltaTime;
 
-        // Turn around at limits
+        // Left/right bounds
         if (movingRight && pos.x > rightLimit)
         {
             movingRight = false;
-            FlipSprite();
+            ApplySpriteFacing();
         }
         else if (!movingRight && pos.x < leftLimit)
         {
             movingRight = true;
-            FlipSprite();
+            ApplySpriteFacing();
         }
 
-        // Vertical wobble
+        // Wobble
         float wobble = Mathf.Sin((Time.time + randomOffset) * verticalFrequency) * verticalAmplitude;
         pos.y = startY + wobble;
 
         transform.position = pos;
     }
 
-    private void FlipSprite()
+    /// <summary>
+    /// Makes sprite visually face movement direction.
+    /// </summary>
+    private void ApplySpriteFacing()
     {
-        if (sr != null)
-            sr.flipX = !sr.flipX;
+        if (sr == null) return;
+
+        bool wantToFaceRight = movingRight;
+
+        if (spriteBaseFacing == SpriteBaseFacing.Right)
+        {
+            sr.flipX = !wantToFaceRight;
+        }
+        else // spriteBaseFacing == Left
+        {
+            sr.flipX = wantToFaceRight;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -136,8 +199,7 @@ public class FleeFromPlayer : MonoBehaviour
                 playerHealth.Heal(healthAmount);
             }
 
-            Destroy(gameObject); // Fish is eaten
+            Destroy(gameObject);
         }
     }
-
 }

@@ -66,6 +66,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4247590214428708969}
   - component: {fileID: 7242101820543211079}
+  - component: {fileID: 6861999763768012229}
   m_Layer: 0
   m_Name: hitbox
   m_TagString: Enemy
@@ -134,6 +135,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.85, y: 0.6}
   m_EdgeRadius: 0
+--- !u!114 &6861999763768012229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7103183526518493937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7507c62c148b5ee4b9abf8fc79d3e93d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParticleHitbox
 --- !u!1001 &7002265893112675950
 PrefabInstance:
   m_ObjectHideFlags: 0
