@@ -2,7 +2,32 @@ fileFormatVersion: 2
 guid: 88c747a29bdfece4da8437b0881aed4c
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Swim down left
+    second: {fileID: 7400000, guid: cb1ea9a2562a9864cad5d4ab458cadde, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Swim down right
+    second: {fileID: 7400000, guid: a5dba50361b40a1489275625fa05f320, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Swim up left
+    second: {fileID: 7400000, guid: eba9c504073c2a04eb26ca7b183f7a49, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Swim up right
+    second: {fileID: 7400000, guid: a082dc66d382b194caf9e8063e865b19, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: swim straight
+    second: {fileID: 7400000, guid: 117f3213094fa0c49875a05b648351d3, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -83,7 +108,7 @@ ScriptedImporter:
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
-    addShadowCasters: 1
+    addShadowCasters: 0
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   asepriteImporterSettings:
@@ -98,11 +123,11 @@ ScriptedImporter:
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
-    addShadowCasters: 1
+    addShadowCasters: 0
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638998549776674822
+  platformSettingsDirtyTick: 638999230213816516
   textureAssetName: 
   singleSpriteImportData:
   - name: 
