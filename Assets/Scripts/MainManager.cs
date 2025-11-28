@@ -7,7 +7,7 @@ public class MainManager : MonoBehaviour
     public static MainManager Instance;
     public int HealthCount;
     public int CoinCount;
-    public TextMeshProUGUI coinText;
+    //public TextMeshProUGUI coinText;
 
     private void Awake()
     {
@@ -28,7 +28,7 @@ public class MainManager : MonoBehaviour
 
 
             CoinCount++;
-            coinText.text = "Coins:" + CoinCount.ToString();
+            //coinText.text = "Coins:" + CoinCount.ToString();
             Debug.Log(CoinCount);
             Destroy(other.gameObject);
 
