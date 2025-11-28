@@ -445,6 +445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainManager
   HealthCount: 0
+  CoinCount: 0
   coinText: {fileID: 0}
 --- !u!4 &163066958
 Transform:
