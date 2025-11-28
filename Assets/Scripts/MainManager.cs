@@ -5,8 +5,8 @@ public class MainManager : MonoBehaviour
 {
 
     public static MainManager Instance;
-    public float HealthCount;
-    private int CoinCount;
+    public int HealthCount;
+    public int CoinCount;
     public TextMeshProUGUI coinText;
 
     private void Awake()
