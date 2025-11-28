@@ -16,7 +16,7 @@ public class CoinCollection : MonoBehaviour
 
             
         Coin++;
-        coinText.text = "Coins:" + Coin.ToString();
+        coinText.text = "=" + Coin.ToString();
         Debug.Log(Coin);
         Destroy(other.gameObject);
 
