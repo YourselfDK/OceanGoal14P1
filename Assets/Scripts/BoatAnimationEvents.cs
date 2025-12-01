@@ -7,9 +7,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 {
     public GameObject hitbox;
 
-    public PlayerHealth playerHealth;
-    public int damage = 20;
-
     // This MUST be public and have NO parameters
     public void EnableHitbox()
     {
@@ -39,12 +36,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
 
     
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.CompareTag("Player"))
         {
             Debug.Log("Collided with Player");
-            playerHealth.TakeDamage(damage);
         }
     }
 }
