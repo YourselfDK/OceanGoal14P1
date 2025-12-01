@@ -1,8 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     public GameObject hitbox;
+
+    public PlayerHealth playerHealth;
+    public int damage = 20;
 
     // This MUST be public and have NO parameters
     public void EnableHitbox()
@@ -23,13 +29,23 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
 
 
-
-
-    public class HitboxTester : MonoBehaviour
-{
-    void OnTriggerEnter2D(Collider2D other)
+    private SpriteRenderer sr;
+    private Rigidbody2D rb;
+    private void Start()
     {
-        Debug.Log("Hitbox triggered by: " + other.name);
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+    }
+
+
+    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            Debug.Log("Collided with Player");
+            playerHealth.TakeDamage(damage);
+        }
     }
 }
-}
+

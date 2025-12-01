@@ -16,7 +16,7 @@ public class InvisiblePlayerFollower : MonoBehaviour
         object1 = GameObject.Find("Player");
         if (object1 != null)
         {
-            Debug.Log("Found you");
+            //Debug.Log("Found you");
             transform.position = object1.transform.position;
             //distance1 = Vector3.Distance(object1.transform.position, object2.transform.position);
         }
