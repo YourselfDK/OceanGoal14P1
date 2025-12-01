@@ -13,6 +13,7 @@ public class MainMenu : MonoBehaviour
         }
         else
         {
+            Debug.Log(MainManager.Instance.LevelCount);
             SceneManager.LoadSceneAsync(MainManager.Instance.LevelCount);
         }
     }
