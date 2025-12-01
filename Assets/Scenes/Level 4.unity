@@ -2016,6 +2016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcdf593a778354ef7ba3594f6788ff9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadShop
+  WhatIsNextLevel: 5
 --- !u!61 &1609837665
 BoxCollider2D:
   m_ObjectHideFlags: 0
