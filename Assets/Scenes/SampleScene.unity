@@ -1730,18 +1730,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &273487095
+--- !u!114 &273487098
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273487090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7507c62c148b5ee4b9abf8fc79d3e93d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ParticleHitbox
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
+  playerHealth: {fileID: 1585659755}
+  damage: 20
 --- !u!1 &289611560
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,7 +2220,7 @@ PrefabInstance:
       addedObject: {fileID: 273487094}
     - targetCorrespondingSourceObject: {fileID: 7103183526518493937, guid: 3d22e25e621f0d24a920de178c506e21, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 273487095}
+      addedObject: {fileID: 273487098}
   m_SourcePrefab: {fileID: 100100000, guid: 3d22e25e621f0d24a920de178c506e21, type: 3}
 --- !u!1 &353366202
 GameObject:
@@ -3167,8 +3169,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   hitbox: {fileID: 273487090}
-  playerHealth: {fileID: 1585659741}
-  damage: 20
 --- !u!1 &644302122
 GameObject:
   m_ObjectHideFlags: 0
@@ -8996,17 +8996,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3509125456632919422, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
   m_PrefabInstance: {fileID: 2747066342819832507}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1585659741 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1466834229900349488, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
-  m_PrefabInstance: {fileID: 2747066342819832507}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585659740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5f85687a31b6574db0c5f212738daee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
 --- !u!114 &1585659748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9019,8 +9008,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  playerHealth: {fileID: 1585659741}
+  playerHealth: {fileID: 1585659755}
   damage: 20
+--- !u!114 &1585659755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585659740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f85687a31b6574db0c5f212738daee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  health: 0
+  maxHealth: 100
 --- !u!1001 &1585714564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12658,10 +12661,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1466834229900349488, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3509125456632919422, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1585659755}
     - targetCorrespondingSourceObject: {fileID: 3509125456632919422, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1585659748}
