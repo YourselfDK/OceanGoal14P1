@@ -106,7 +106,7 @@ MonoBehaviour:
   speed: 0.4
   leftLimit: -10
   rightLimit: 10
-  verticalAmplitude: 0.2
+  verticalAmplitude: 0.05
   verticalFrequency: 1
   healthAmount: 2
   startDirection: 1
