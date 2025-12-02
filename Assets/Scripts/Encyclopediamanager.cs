@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EncyclopediaNavigation : MonoBehaviour
+public class Encyclopediamanager : MonoBehaviour
 {
      
     public GameObject FishPanel; 

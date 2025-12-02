@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Changescene : MonoBehaviour
+public class Encyclopedia : MonoBehaviour
 {
   public void LoadScene(int sceneID)
 {
