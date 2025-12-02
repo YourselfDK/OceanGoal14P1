@@ -10,6 +10,7 @@ public class Encyclopediamanager : MonoBehaviour
 
     public void ChangeThat (string nameOfPanel)
     {
+        Debug.Log(nameOfPanel);
         FishPanel.SetActive(nameOfPanel == "FishPanel");
         HazardsPanel.SetActive(nameOfPanel == "HazardsPanel");
         SolutionPanels.SetActive(nameOfPanel == "SolutionsPanel");

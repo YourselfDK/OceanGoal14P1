@@ -918,7 +918,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: HazardsButton
+          m_StringArgument: HazardsPanel
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &524495791
@@ -1388,7 +1388,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Solutions Button
+          m_StringArgument: SolutionsPanel
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &879984364
@@ -3452,7 +3452,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: FishButton
+          m_StringArgument: FishPanel
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1721235708
@@ -3981,7 +3981,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1983478116
 MonoBehaviour:
   m_ObjectHideFlags: 0
