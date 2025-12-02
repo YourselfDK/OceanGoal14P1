@@ -7,7 +7,15 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1);
+        if (MainManager.Instance.InShop)
+        {
+            SceneManager.LoadSceneAsync("Shop");
+        }
+        else
+        {
+            Debug.Log(MainManager.Instance.LevelCount);
+            SceneManager.LoadSceneAsync(MainManager.Instance.LevelCount);
+        }
     }
 
     public void QuitGame()

@@ -1,9 +1,10 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LoadShop : MonoBehaviour
 {
-
+    public int WhatIsNextLevel = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {}
@@ -12,6 +13,8 @@ public class LoadShop : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            MainManager.Instance.LevelCount = WhatIsNextLevel;
+            MainManager.Instance.InShop = true;
             SceneManager.LoadScene("Shop");
         }
     }
@@ -20,5 +23,5 @@ public class LoadShop : MonoBehaviour
     void Update(){}
 
 
-    }
+}
 

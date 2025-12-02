@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
@@ -23,13 +26,22 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
 
 
-
-
-    public class HitboxTester : MonoBehaviour
-{
-    void OnTriggerEnter2D(Collider2D other)
+    private SpriteRenderer sr;
+    private Rigidbody2D rb;
+    private void Start()
     {
-        Debug.Log("Hitbox triggered by: " + other.name);
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
+    }
+
+
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            Debug.Log("Collided with Player");
+        }
     }
 }
-}
+
