@@ -143,6 +143,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1261524803156019963, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 3767380341072436938, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -426,6 +430,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1261524803156019963, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 3767380341072436938, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -646,6 +654,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5692986489943531562, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 7168680425396495399, guid: 14a03203af755224a974289b7d230836, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -833,6 +845,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4620067213450505916, guid: f00d29721b955d240a3e7a05bcf2d3a2, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 8740366076585979739, guid: f00d29721b955d240a3e7a05bcf2d3a2, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -1047,6 +1063,10 @@ PrefabInstance:
       propertyPath: leftLimit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4700580665341228546, guid: 4861714b3df2fe844aa67b300cf1b52f, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 5295458514152483188, guid: 4861714b3df2fe844aa67b300cf1b52f, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -1144,6 +1164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
   coinText: {fileID: 441642218}
+  coinCollectSound: {fileID: 0}
 --- !u!1 &454837912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1378,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3021295235115422204, guid: 41765d1f0f497f04f9acc73cfbb0bbee, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 5030011062777132689, guid: 41765d1f0f497f04f9acc73cfbb0bbee, type: 3}
       propertyPath: m_Name
       value: FishGarfish
@@ -1495,6 +1520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
   coinText: {fileID: 0}
+  coinCollectSound: {fileID: 0}
 --- !u!58 &629390625
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1687,6 +1713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
   coinText: {fileID: 0}
+  coinCollectSound: {fileID: 0}
 --- !u!58 &672661981
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1984,6 +2011,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2632120994072551159, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 3102019768333846140, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -2064,6 +2095,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2694743521431208699, guid: f9c8e6f80757a284a91a26fea4ba745b, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 5260211422958307793, guid: f9c8e6f80757a284a91a26fea4ba745b, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -2378,6 +2413,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6222571862736924650, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2708,6 +2747,51 @@ Transform:
   - {fileID: 1993434775}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1259313831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1259313833}
+  - component: {fileID: 1259313832}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1259313832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259313831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa9dd324cc7be243bf05e18f3884845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SoundFXManager
+  soundFXObject: {fileID: 2987275796056666357, guid: cb6f7a87ad4e85c4184a6f1c4c92f4d1, type: 3}
+--- !u!4 &1259313833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259313831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1261193469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2936,6 +3020,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5692986489943531562, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 7168680425396495399, guid: 14a03203af755224a974289b7d230836, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -3176,6 +3264,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2632120994072551159, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 3102019768333846140, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -3520,6 +3612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
   coinText: {fileID: 0}
+  coinCollectSound: {fileID: 0}
 --- !u!58 &1486587218
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3988,6 +4081,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 453635232}
+    - target: {fileID: 1325126066455240339, guid: e53d7e93b0a58e2418824f102cae54aa, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     - target: {fileID: 1862940285364101436, guid: e53d7e93b0a58e2418824f102cae54aa, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
@@ -4766,6 +4863,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7704406418458558483, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4856,6 +4957,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7704406418458558483, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
+      propertyPath: eatingSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5027,3 +5132,4 @@ SceneRoots:
   - {fileID: 1089483502}
   - {fileID: 1393332976}
   - {fileID: 453635231}
+  - {fileID: 1259313833}

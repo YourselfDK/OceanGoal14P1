@@ -45,6 +45,9 @@ public class FleeFromPlayer : MonoBehaviour
     [Tooltip("Which way does the sprite face when flipX is FALSE?")]
     [SerializeField] private SpriteBaseFacing spriteBaseFacing = SpriteBaseFacing.Left; // DEFAULT = Left
 
+    [Header("Eating Sound")]
+    [SerializeField] private AudioClip eatingSound;
+
     private float startY;
     private float randomOffset;
     private bool movingRight = true;
@@ -199,6 +202,7 @@ public class FleeFromPlayer : MonoBehaviour
                 playerHealth.Heal(healthAmount);
             }
 
+            SoundFXManager.Instance.PlaySoundFXClip(eatingSound, collision.transform, 0.2f);
             Destroy(gameObject);
         }
     }
