@@ -1046,6 +1046,14 @@ PrefabInstance:
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 827402433}
+    - target: {fileID: 7275747354040107300, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
+      propertyPath: Composition.DeadZone.Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7275747354040107300, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
+      propertyPath: Composition.HardLimits.Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7678990198488457657, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
