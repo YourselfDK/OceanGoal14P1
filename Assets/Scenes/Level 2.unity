@@ -296,6 +296,10 @@ PrefabInstance:
       propertyPath: startDirection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7168680425396495399, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -370,6 +374,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6295657361015304137, guid: 41765d1f0f497f04f9acc73cfbb0bbee, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -392,6 +400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles
       objectReference: {fileID: 0}
+    - target: {fileID: 1160356261127867848, guid: 2ea60c2db5dc4924f98c6f261773f104, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 76246facef8168341861f6503b197e15, type: 2}
     - target: {fileID: 3626916397498700004, guid: 2ea60c2db5dc4924f98c6f261773f104, type: 3}
       propertyPath: m_Color.b
       value: 0.9
@@ -643,6 +655,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3102019768333846140, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -830,6 +846,10 @@ PrefabInstance:
       propertyPath: startDirection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7168680425396495399, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -907,6 +927,10 @@ PrefabInstance:
     - target: {fileID: 4700580665341228546, guid: 4861714b3df2fe844aa67b300cf1b52f, type: 3}
       propertyPath: rightLimit
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5295458514152483188, guid: 4861714b3df2fe844aa67b300cf1b52f, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1091,6 +1115,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6295657361015304137, guid: 41765d1f0f497f04f9acc73cfbb0bbee, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1115,11 +1143,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6950502969229898735, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.17
+      value: -11.12
       objectReference: {fileID: 0}
     - target: {fileID: 6950502969229898735, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6950502969229898735, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1238,6 +1266,10 @@ PrefabInstance:
     - target: {fileID: 2632120994072551159, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
       propertyPath: rightLimit
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102019768333846140, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2109,6 +2141,10 @@ PrefabInstance:
       propertyPath: startDirection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7168680425396495399, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2131,6 +2167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubble Small
       objectReference: {fileID: 0}
+    - target: {fileID: 1160356261127867848, guid: b1ec36733f1a6ea47899790b7c5a1a0b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0ba84274be7d6aa448ed12bda7a35d18, type: 2}
     - target: {fileID: 3626916397498700004, guid: b1ec36733f1a6ea47899790b7c5a1a0b, type: 3}
       propertyPath: m_Color.b
       value: 0.9
@@ -2273,6 +2313,10 @@ PrefabInstance:
       propertyPath: startDirection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7168680425396495399, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2414,11 +2458,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7678990198488457657, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.17
+      value: -11.12
       objectReference: {fileID: 0}
     - target: {fileID: 7678990198488457657, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7678990198488457657, guid: c8ee836ab58a42b4f99e96f8df4e852a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2561,6 +2605,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3102019768333846140, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2602,6 +2650,10 @@ PrefabInstance:
     - target: {fileID: 1261524803156019963, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
       propertyPath: startDirection
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767380341072436938, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 8091418990320911761, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
       propertyPath: m_Name
@@ -2821,6 +2873,10 @@ PrefabInstance:
     - target: {fileID: 841029028591715994, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076603145590871391, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 7704406418458558483, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
       propertyPath: speed
@@ -3239,6 +3295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubble Small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1160356261127867848, guid: b1ec36733f1a6ea47899790b7c5a1a0b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0ba84274be7d6aa448ed12bda7a35d18, type: 2}
     - target: {fileID: 3626916397498700004, guid: b1ec36733f1a6ea47899790b7c5a1a0b, type: 3}
       propertyPath: m_Color.b
       value: 0.9
@@ -3376,6 +3436,10 @@ PrefabInstance:
     - target: {fileID: 1325126066455240339, guid: e53d7e93b0a58e2418824f102cae54aa, type: 3}
       propertyPath: rightLimit
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1862940285364101436, guid: e53d7e93b0a58e2418824f102cae54aa, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3784,7 +3848,7 @@ Transform:
   m_GameObject: {fileID: 1828927718}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.259704, y: 0.16835, z: -21}
+  m_LocalPosition: {x: -10.260468, y: 0.03586, z: -21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4054,6 +4118,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809362812}
     m_Modifications:
+    - target: {fileID: 2486389936380434908, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 4721172472153894644, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.94847
@@ -4128,6 +4196,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1809362812}
     m_Modifications:
+    - target: {fileID: 2486389936380434908, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 4721172472153894644, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.891376
@@ -4206,6 +4278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubble Big
       objectReference: {fileID: 0}
+    - target: {fileID: 1160356261127867848, guid: af4934ae19464964d95951bf9354c593, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b9e8e69be7d3b344e8150d8789a0f595, type: 2}
     - target: {fileID: 3626916397498700004, guid: af4934ae19464964d95951bf9354c593, type: 3}
       propertyPath: m_Color.b
       value: 0.9
@@ -4478,6 +4554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubble Big (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1160356261127867848, guid: af4934ae19464964d95951bf9354c593, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b9e8e69be7d3b344e8150d8789a0f595, type: 2}
     - target: {fileID: 3626916397498700004, guid: af4934ae19464964d95951bf9354c593, type: 3}
       propertyPath: m_Color.b
       value: 0.9
