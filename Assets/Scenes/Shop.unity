@@ -286,7 +286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 151824635}
   soldOutPanel: {fileID: 1098863691}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
@@ -822,7 +822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 359472980}
   soldOutPanel: {fileID: 520344628}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
@@ -2221,6 +2221,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2338,7 +2350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 703493304}
   soldOutPanel: {fileID: 567613684}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
@@ -2523,7 +2535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 789022906}
   soldOutPanel: {fileID: 875562416}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
@@ -3338,7 +3350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1103930947}
   soldOutPanel: {fileID: 703606365}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
@@ -3375,7 +3387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1199456126}
   soldOutPanel: {fileID: 524003770}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
@@ -3412,7 +3424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1227607299}
   soldOutPanel: {fileID: 2101388824}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
@@ -3588,7 +3600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1411716182}
   soldOutPanel: {fileID: 607504986}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
@@ -5243,7 +5255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 2133447465}
   soldOutPanel: {fileID: 673308454}
-  ItemPrice: 0
+  ItemPrice: 50
   CleanupType:
   - 
   - 
