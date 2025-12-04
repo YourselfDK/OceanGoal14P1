@@ -67,15 +67,16 @@ public class BoatAI : MonoBehaviour
         if (Vector2.Distance(transform.position, target) < 0.05f)
         {
 
-            StartStopAtWaypoint();
+            if (StartStopAtWaypoint())   // returns true only if stopping
+            return;                  // stop here and do NOT change waypoint yet
 
-
+            // Move to next waypoint normally
             currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
         }
     }
 
 
-     void StartStopAtWaypoint()
+     bool StartStopAtWaypoint()
     {
         // Is there a stop time defined for this waypoint?
         float stopTime = (currentWaypoint < stopTimes.Length) ? stopTimes[currentWaypoint] : 0f;
@@ -87,6 +88,9 @@ public class BoatAI : MonoBehaviour
 
             PlayStopAnimation(); 
         }
+        
+        return false;
+    
     }
 
     void HandleStopTimer()
