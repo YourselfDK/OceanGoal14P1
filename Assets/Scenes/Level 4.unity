@@ -601,6 +601,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishHerringSick (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 841029028591715994, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076603145590871391, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7704406418458558483, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
       propertyPath: speed
       value: 0.4
@@ -1081,9 +1089,17 @@ PrefabInstance:
       propertyPath: startDirection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3767380341072436938, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 8091418990320911761, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
       propertyPath: m_Name
       value: FishShrimpSick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091418990320911761, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9054350969095728628, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1704,6 +1720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishHerring (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1504294497056503734, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1805285188467892179, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.382916
@@ -1764,6 +1784,10 @@ PrefabInstance:
       propertyPath: rightLimit
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3102019768333846140, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1782,6 +1806,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 209022136}
     m_Modifications:
+    - target: {fileID: 2486389936380434908, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 4721172472153894644, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.533321
@@ -1826,6 +1854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishBlackGoby
       objectReference: {fileID: 0}
+    - target: {fileID: 5505936240992732817, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6222571862736924650, guid: d707aad5cbf2b764cb96edcd656df2d3, type: 3}
       propertyPath: player
       value: 
@@ -1859,6 +1891,10 @@ PrefabInstance:
     - target: {fileID: 5030011062777132689, guid: 41765d1f0f497f04f9acc73cfbb0bbee, type: 3}
       propertyPath: m_Name
       value: FishGarfish
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030011062777132689, guid: 41765d1f0f497f04f9acc73cfbb0bbee, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5198221487384436468, guid: 41765d1f0f497f04f9acc73cfbb0bbee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1900,6 +1936,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6295657361015304137, guid: 41765d1f0f497f04f9acc73cfbb0bbee, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1921,6 +1961,10 @@ PrefabInstance:
     - target: {fileID: 1504294497056503734, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
       propertyPath: m_Name
       value: FishHerring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1504294497056503734, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1805285188467892179, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1981,6 +2025,10 @@ PrefabInstance:
     - target: {fileID: 2632120994072551159, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
       propertyPath: rightLimit
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102019768333846140, guid: 1f2f0404b73cb07418ba3b3f14ae9363, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2433,6 +2481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishCodSick
       objectReference: {fileID: 0}
+    - target: {fileID: 1505329089810166778, guid: 7cf7838dd0f545845a01f0dd53b0b311, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1804248396407888799, guid: 7cf7838dd0f545845a01f0dd53b0b311, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.97208
@@ -2477,6 +2529,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 872501894}
+    - target: {fileID: 8906213380467047712, guid: 7cf7838dd0f545845a01f0dd53b0b311, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3005,6 +3061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishShrimp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 818022425685288624, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5692986489943531562, guid: 14a03203af755224a974289b7d230836, type: 3}
       propertyPath: speed
       value: 0.3
@@ -3028,6 +3088,10 @@ PrefabInstance:
     - target: {fileID: 5692986489943531562, guid: 14a03203af755224a974289b7d230836, type: 3}
       propertyPath: startDirection
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168680425396495399, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3463,6 +3527,14 @@ PrefabInstance:
     - target: {fileID: 841029028591715994, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
       propertyPath: m_Name
       value: FishHerringSick
+      objectReference: {fileID: 0}
+    - target: {fileID: 841029028591715994, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7076603145590871391, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 7704406418458558483, guid: b2b6c687b68150348b72c00a46df2f6d, type: 3}
       propertyPath: speed
@@ -4129,6 +4201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishShrimp
       objectReference: {fileID: 0}
+    - target: {fileID: 818022425685288624, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5692986489943531562, guid: 14a03203af755224a974289b7d230836, type: 3}
       propertyPath: speed
       value: 0.3
@@ -4152,6 +4228,10 @@ PrefabInstance:
     - target: {fileID: 5692986489943531562, guid: 14a03203af755224a974289b7d230836, type: 3}
       propertyPath: startDirection
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7168680425396495399, guid: 14a03203af755224a974289b7d230836, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4690,6 +4770,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 209022136}
     m_Modifications:
+    - target: {fileID: 196930460678617568, guid: 4bee7b0857ab33641a4cace612c09d24, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5218743026021058610, guid: 4bee7b0857ab33641a4cace612c09d24, type: 3}
       propertyPath: player
       value: 
@@ -4737,6 +4821,10 @@ PrefabInstance:
     - target: {fileID: 7707347689997550475, guid: 4bee7b0857ab33641a4cace612c09d24, type: 3}
       propertyPath: m_Name
       value: FishBelugaSturgeonSick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707347689997550475, guid: 4bee7b0857ab33641a4cace612c09d24, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4799,9 +4887,17 @@ PrefabInstance:
       propertyPath: startDirection
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3767380341072436938, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 8091418990320911761, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
       propertyPath: m_Name
       value: FishShrimpSick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091418990320911761, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9054350969095728628, guid: 93ea31d50f00a6d408eb1e41780a29a8, type: 3}
       propertyPath: m_LocalPosition.x
