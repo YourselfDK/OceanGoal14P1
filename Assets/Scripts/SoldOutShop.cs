@@ -1,14 +1,16 @@
+using System.Linq.Expressions;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
+//using System.Collections;
 
 public class ShopItemVisual : MonoBehaviour
 {
     public Button buyButton;         // The button for purchasing
     public GameObject soldOutPanel;  // The red panel covering the whole item
+    
     public int ItemPrice;
-    //public int[] CleanupType = new int[4];
-    public string ItemType = "Fisher, Oil, MPlastic, ODeprived or ToxicWaste";
+    public GameObject[] CleanUpType;
+    public string ItemType = "Fisher, Oil, MPlastic, ODeprived, ToxicWaste or Vote";
 
     private bool isSoldOut = false;
 
@@ -16,14 +18,14 @@ public class ShopItemVisual : MonoBehaviour
     {
         soldOutPanel.SetActive(false);        // Hide panel initially
         buyButton.onClick.AddListener(PurchaseItem);
-        //oreach (int value in CleanupType)
-        //{    print(value);}
+        foreach (GameObject go in CleanUpType)
+        {
+            print(go);
+            go.SetActive(false);
+        }
 
-        //CleanupType[0] = 0;     //MainManager.Instance.FisherCleanup
-        //CleanupType[1] = 1;     //MainManager.Instance.OilCleanup
-        //CleanupType[2] = 2;     //MainManager.Instance.MPlasticCleanup
-        //CleanupType[3] = 3;     //MainManager.Instance.ODeprivedCleanup
-        //CleanupType[4] = 4;     //MainManager.Instance.ToxicWasteCleanup
+        //CleanUpType = new GameObject[7];
+        //CleanUpType[1] = new GameObject();
     }
 
     public void PurchaseItem()
@@ -53,6 +55,14 @@ public class ShopItemVisual : MonoBehaviour
         if (ItemType == "ToxicWasteCleanup")
         {
             MainManager.Instance.ToxicWasteCleanup++;
+        }
+        if (ItemType == "Vote")
+        {
+            foreach (GameObject go in CleanUpType)
+            {
+                go.SetActive(true);
+                Debug.Log(go+"Was succesfully found");
+            }
         }
 
         isSoldOut = true;

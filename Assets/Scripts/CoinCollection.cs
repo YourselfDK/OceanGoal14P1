@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CoinCollection : MonoBehaviour
 {
-    private int Coin = 0;
+    public int Coin = 0;
     public TextMeshProUGUI coinText;
 
     [SerializeField] private AudioClip coinCollectSound;

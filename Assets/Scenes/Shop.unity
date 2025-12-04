@@ -286,8 +286,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 151824635}
   soldOutPanel: {fileID: 1098863691}
-  ItemPrice: 50
-  CleanupType: 0000000000000000000000000000000000000000
+  ItemPrice: 15
+  CleanUpType: []
+  ItemType: ToxicWaste
 --- !u!1 &208128006
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,7 +379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &229770291
 RectTransform:
   m_ObjectHideFlags: 0
@@ -762,7 +763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -817,8 +818,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 359472980}
   soldOutPanel: {fileID: 520344628}
-  ItemPrice: 50
-  CleanupType: 0000000000000000000000000000000000000000
+  ItemPrice: 15
+  CleanUpType: []
+  ItemType: MPlastic
 --- !u!1001 &400084016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -835,6 +837,11 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: 8addc2aad281242288f962928c6673d4, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: One of the ways to deal with large quantities of oil in the ocean, is
+        to burn it. With FIRE!!
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: Burn oil
@@ -905,7 +912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.96281254
+      value: 0.9628126
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.y
@@ -933,15 +940,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -962,6 +969,12 @@ PrefabInstance:
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '15 coins
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1002,6 +1015,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1227607302}
   m_SourcePrefab: {fileID: 100100000, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+--- !u!1 &407153879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+  m_PrefabInstance: {fileID: 1532283968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &426572338 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -1242,6 +1260,11 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: eed2fc537e61745c6993e696dd50929c, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: Mechanical removal uses 'booms' and 'skimmers' to recover oil from the
+        oceans surface, and away from the fish!
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: 'Mechanical removal '
@@ -1312,7 +1335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.96281254
+      value: 0.9628126
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.y
@@ -1340,15 +1363,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1368,6 +1391,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '15 coins
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067363769401036859, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -2143,6 +2176,11 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: fbe2bb0dcd86148c0bc6399798d5ef36, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: Maintains and improves procedures for cleaning wastewater. No toxic
+        waste in the ocean on my watch! Well... less, at least.
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: Wastewater cleanup
@@ -2209,7 +2247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.96281254
+      value: 0.9628126
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.y
@@ -2237,15 +2275,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2265,6 +2303,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '15 coins
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067363769401036859, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -2412,8 +2460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 703493304}
   soldOutPanel: {fileID: 567613684}
-  ItemPrice: 50
-  CleanupType: 0000000000000000000000000000000000000000
+  ItemPrice: 15
+  CleanUpType: []
+  ItemType: ODeprived
 --- !u!1 &703606365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,8 +2641,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 789022906}
   soldOutPanel: {fileID: 875562416}
-  ItemPrice: 50
-  CleanupType: 0000000000000000000000000000000000000000
+  ItemPrice: 10
+  CleanUpType: []
+  ItemType: MPlastic
+--- !u!1 &830798137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+  m_PrefabInstance: {fileID: 2140056706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &875562416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2742,6 +2797,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933860954}
   m_CullTransparentMesh: 1
+--- !u!1 &955687842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+  m_PrefabInstance: {fileID: 400084016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &974727420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2762,6 +2822,11 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: 74309aa83cdca4a8f956aa2eb4ad56cb, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: Imposes strict regulations on filters in washing machines. This means
+        more microplastics will be caught, and never make it to the ocean!
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: Washing machine law
@@ -2828,7 +2893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.96281254
+      value: 0.9628126
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.y
@@ -2856,15 +2921,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2889,6 +2954,12 @@ PrefabInstance:
     - target: {fileID: 6814874626386033313, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '15 coins
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8067363769401036859, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -3116,6 +3187,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044400761}
   m_CullTransparentMesh: 1
+--- !u!1 &1059139917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+  m_PrefabInstance: {fileID: 5887227140541130767}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1059542357
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,8 +3506,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1103930947}
   soldOutPanel: {fileID: 703606365}
-  ItemPrice: 50
-  CleanupType: 0000000000000000000000000000000000000000
+  ItemPrice: 15
+  CleanUpType: []
+  ItemType: Oil
+--- !u!1 &1140234897 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+  m_PrefabInstance: {fileID: 628780215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1199456124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3463,7 +3545,16 @@ MonoBehaviour:
   buyButton: {fileID: 1199456126}
   soldOutPanel: {fileID: 524003770}
   ItemPrice: 0
-  CleanupType: 0000000000000000000000000000000000000000
+  CleanUpType:
+  - {fileID: 1059139917}
+  - {fileID: 407153879}
+  - {fileID: 1852626433}
+  - {fileID: 955687842}
+  - {fileID: 1235686809}
+  - {fileID: 1928652620}
+  - {fileID: 830798137}
+  - {fileID: 1140234897}
+  ItemType: Vote
 --- !u!1 &1227607297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3494,8 +3585,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1227607299}
   soldOutPanel: {fileID: 2101388824}
-  ItemPrice: 50
-  CleanupType: 0000000000000000000000000000000000000000
+  ItemPrice: 15
+  CleanUpType: []
+  ItemType: Oil
+--- !u!1 &1235686809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+  m_PrefabInstance: {fileID: 490248617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1276561399 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3798,8 +3895,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1411716182}
   soldOutPanel: {fileID: 607504986}
-  ItemPrice: 50
-  CleanupType: 0000000000000000000000000000000000000000
+  ItemPrice: 15
+  CleanUpType: []
+  ItemType: ToxicWaste
 --- !u!1001 &1532283968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3808,6 +3906,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1912252787}
     m_Modifications:
+    - target: {fileID: 81282902161340911, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1304465233112625925, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 5.5
@@ -3820,6 +3922,13 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: 3bd7e489a9b874b4ca0daeaaf9b7425e, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: 'Supports public transportation.
+
+        Less wheels on the road, means
+        less microplastic in the ocean.'
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: Public transport
@@ -3902,7 +4011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.96281254
+      value: 0.9628126
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.y
@@ -3930,15 +4039,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3958,6 +4067,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501163329691204339, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '10 coins
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067363769401036859, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -4308,7 +4435,8 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: 48a0502ea936f4b5da841de7a1c389d8, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: The first step in bettering the climate.
+      value: The first step in bettering the climate. Avoiding this will make your
+        life seriously harder...
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -4440,7 +4568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: '0 coins
+      value: '0 coins, it''s free!
 
 '
       objectReference: {fileID: 0}
@@ -4585,6 +4713,11 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: 20ec9ef5cace0432ea9d81c0b9c23b6b, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: This hard working and (slightly) climate conscious politician will make
+        sure less toxic waste is dumped into the ocean.
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: Minister of the Environment
@@ -4679,7 +4812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.96281254
+      value: 0.9628126
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.y
@@ -4707,15 +4840,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4736,6 +4869,12 @@ PrefabInstance:
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '15 coins
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -4890,6 +5029,11 @@ Transform:
   - {fileID: 288778705}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1852626433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+  m_PrefabInstance: {fileID: 974727420}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1857739617
 GameObject:
   m_ObjectHideFlags: 0
@@ -5063,9 +5207,9 @@ RectTransform:
   - {fileID: 473019441}
   - {fileID: 1276561399}
   - {fileID: 1950054846}
-  - {fileID: 1815658210}
   - {fileID: 1824301835}
   - {fileID: 1773981952}
+  - {fileID: 1815658210}
   m_Father: {fileID: 1016080767}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
@@ -5151,6 +5295,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912252786}
   m_CullTransparentMesh: 1
+--- !u!1 &1928652620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+  m_PrefabInstance: {fileID: 1800495008}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1950054846 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -5542,8 +5691,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 2133447465}
   soldOutPanel: {fileID: 673308454}
-  ItemPrice: 50
-  CleanupType: 0000000000000000000000000000000000000000
+  ItemPrice: 15
+  CleanUpType: []
+  ItemType: Fisher
 --- !u!1001 &2140056706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5560,6 +5710,12 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: 6f52f75c7e57b4613bddcc13e20017b9, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: Organic farming limits the amount of fertilizer used, which reduces
+        nitrogen pollution in the ocean, and helps to avoid 'Dead Zones' in the ocean,
+        where oxygen is sparse.
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: Organic farming
@@ -5630,7 +5786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.96281254
+      value: 0.9628126
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.y
@@ -5658,15 +5814,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5687,6 +5843,12 @@ PrefabInstance:
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '15 coins
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -5743,6 +5905,11 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: ba2149fc92ec145d2b63e72b75078b29, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: Protect areas at risk of overfishing by law. Fewer fishermen will be
+        encountered.
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: Protected Area
@@ -5825,7 +5992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.96281254
+      value: 0.9628126
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalScale.y
@@ -5853,15 +6020,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5882,6 +6049,12 @@ PrefabInstance:
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '15 coins
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8067363769401036859, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_PresetInfoIsWorld
