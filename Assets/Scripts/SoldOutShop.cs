@@ -7,7 +7,7 @@ public class ShopItemVisual : MonoBehaviour
     public Button buyButton;         // The button for purchasing
     public GameObject soldOutPanel;  // The red panel covering the whole item
     public int ItemPrice;
-    public string[] CleanupType = new string[4];
+    public int[] CleanupType = new int[4];
 
     private bool isSoldOut = false;
 
@@ -15,16 +15,16 @@ public class ShopItemVisual : MonoBehaviour
     {
         soldOutPanel.SetActive(false);        // Hide panel initially
         buyButton.onClick.AddListener(PurchaseItem);
-        foreach (string value in CleanupType)
+        foreach (int value in CleanupType)
         {
             print(value);
         }
 
-        CleanupType[0] = "MainManager.Instance.FisherCleanup";
-        CleanupType[1] = "MainManager.Instance.OilCleanup";
-        CleanupType[2] = "MainManager.Instance.MPlasticCleanup";
-        CleanupType[3] = "MainManager.Instance.ODeprivedCleanup";
-        CleanupType[4] = "MainManager.Instance.ToxicWasteCleanup";
+        CleanupType[0] = 0;     //MainManager.Instance.FisherCleanup
+        CleanupType[1] = 0;     //MainManager.Instance.OilCleanup
+        CleanupType[2] = 0;     //MainManager.Instance.MPlasticCleanup
+        CleanupType[3] = 0;     //MainManager.Instance.ODeprivedCleanup
+        CleanupType[4] = 0;     //MainManager.Instance.ToxicWasteCleanup
     }
 
     public void PurchaseItem()
