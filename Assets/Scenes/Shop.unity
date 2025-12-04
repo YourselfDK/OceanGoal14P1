@@ -236,6 +236,11 @@ MonoBehaviour:
   CoinCount: 0
   LevelCount: 1
   InShop: 1
+  FisherCleanup: 0
+  OilCleanup: 0
+  MPlasticCleanup: 0
+  ODeprivedCleanup: 0
+  ToxicWasteCleanup: 0
 --- !u!4 &70502936
 Transform:
   m_ObjectHideFlags: 0
@@ -282,6 +287,12 @@ MonoBehaviour:
   buyButton: {fileID: 151824635}
   soldOutPanel: {fileID: 1098863691}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &208128006
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,6 +823,12 @@ MonoBehaviour:
   buyButton: {fileID: 359472980}
   soldOutPanel: {fileID: 520344628}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1001 &400084016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2322,6 +2339,12 @@ MonoBehaviour:
   buyButton: {fileID: 703493304}
   soldOutPanel: {fileID: 567613684}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &703606365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2501,6 +2524,12 @@ MonoBehaviour:
   buyButton: {fileID: 789022906}
   soldOutPanel: {fileID: 875562416}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &875562416
 GameObject:
   m_ObjectHideFlags: 0
@@ -3310,6 +3339,12 @@ MonoBehaviour:
   buyButton: {fileID: 1103930947}
   soldOutPanel: {fileID: 703606365}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1199456124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3341,6 +3376,12 @@ MonoBehaviour:
   buyButton: {fileID: 1199456126}
   soldOutPanel: {fileID: 524003770}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1227607297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3372,6 +3413,12 @@ MonoBehaviour:
   buyButton: {fileID: 1227607299}
   soldOutPanel: {fileID: 2101388824}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!224 &1276561399 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3542,6 +3589,12 @@ MonoBehaviour:
   buyButton: {fileID: 1411716182}
   soldOutPanel: {fileID: 607504986}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1001 &1532283968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5191,6 +5244,12 @@ MonoBehaviour:
   buyButton: {fileID: 2133447465}
   soldOutPanel: {fileID: 673308454}
   ItemPrice: 0
+  CleanupType:
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1001 &2140056706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5500,6 +5559,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067363769401036859, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
