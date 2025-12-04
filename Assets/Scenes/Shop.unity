@@ -286,13 +286,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 151824635}
   soldOutPanel: {fileID: 1098863691}
-  ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  ItemPrice: 50
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!1 &208128006
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,7 +378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &229770291
 RectTransform:
   m_ObjectHideFlags: 0
@@ -822,13 +817,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 359472980}
   soldOutPanel: {fileID: 520344628}
-  ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  ItemPrice: 50
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!1001 &400084016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -879,7 +869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template (3)
+      value: BurnOilItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
@@ -1258,7 +1248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template (4)
+      value: MechanicalRemovalItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
@@ -2127,7 +2117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template (8)
+      value: WasteWaterCleanupItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
@@ -2220,6 +2210,18 @@ PrefabInstance:
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2338,13 +2340,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 703493304}
   soldOutPanel: {fileID: 567613684}
-  ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  ItemPrice: 50
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!1 &703606365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,13 +2520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 789022906}
   soldOutPanel: {fileID: 875562416}
-  ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  ItemPrice: 50
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!1 &875562416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2728,7 +2720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template (2)
+      value: WashingMachineItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
@@ -3338,13 +3330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1103930947}
   soldOutPanel: {fileID: 703606365}
-  ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  ItemPrice: 50
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!1 &1199456124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3376,12 +3363,7 @@ MonoBehaviour:
   buyButton: {fileID: 1199456126}
   soldOutPanel: {fileID: 524003770}
   ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!1 &1227607297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3412,13 +3394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1227607299}
   soldOutPanel: {fileID: 2101388824}
-  ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  ItemPrice: 50
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!224 &1276561399 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3588,13 +3565,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 1411716182}
   soldOutPanel: {fileID: 607504986}
-  ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  ItemPrice: 50
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!1001 &1532283968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3661,7 +3633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template (1)
+      value: PublicTransportItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
@@ -4077,6 +4049,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: -8328923581568760697, guid: 48a0502ea936f4b5da841de7a1c389d8, type: 3}
+    - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: The first step in bettering the climate.
+      objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
       value: Vote
@@ -4111,7 +4087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template (6)
+      value: VoteItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
@@ -4203,6 +4179,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_text
+      value: '0 coins
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067363769401036859, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4372,7 +4358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template (5)
+      value: MinisterOfTheEnvironmentItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
@@ -5243,13 +5229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
   buyButton: {fileID: 2133447465}
   soldOutPanel: {fileID: 673308454}
-  ItemPrice: 0
-  CleanupType:
-  - 
-  - 
-  - 
-  - 
-  - 
+  ItemPrice: 50
+  CleanupType: 0000000000000000000000000000000000000000
 --- !u!1001 &2140056706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5300,7 +5281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template (7)
+      value: OrganicFarmingItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
@@ -5467,7 +5448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Name
-      value: Item Template
+      value: ProtectedAreaItem
       objectReference: {fileID: 0}
     - target: {fileID: 6398681125005577170, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_Pivot.x
