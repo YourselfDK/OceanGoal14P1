@@ -95,6 +95,7 @@ MonoBehaviour:
   healthAmount: -3
   startDirection: 2
   spriteBaseFacing: 1
+  eatingSound: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
 --- !u!50 &5260211422958307793
 Rigidbody2D:
   serializedVersion: 5
