@@ -841,8 +841,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: 8addc2aad281242288f962928c6673d4, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: One of the ways to deal with large quantities of oil in the ocean, is
-        to burn it. With FIRE!!
+      value: Organised burning of oilspills saves marine life.
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -1264,8 +1263,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: eed2fc537e61745c6993e696dd50929c, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: Mechanical removal uses 'booms' and 'skimmers' to recover oil from the
-        oceans surface, and away from the fish!
+      value: Remove oil from the oceans surface, and away from the fish!
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -2180,8 +2178,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: fbe2bb0dcd86148c0bc6399798d5ef36, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: Maintains and improves procedures for cleaning wastewater. No toxic
-        waste in the ocean on my watch! Well... less, at least.
+      value: Improves procedures for cleaning wastewater of toxic waste.
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -2828,8 +2825,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: 74309aa83cdca4a8f956aa2eb4ad56cb, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: Imposes strict regulations on filters in washing machines. This means
-        more microplastics will be caught, and never make it to the ocean!
+      value: Better filters means less microplastic ends up in the ocean.
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -3932,10 +3928,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: 3bd7e489a9b874b4ca0daeaaf9b7425e, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: 'Supports public transportation.
-
-        Less wheels on the road, means
-        less microplastic in the ocean.'
+      value: Less wheels on the road, less microplastic in the ocean.
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -4443,8 +4436,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: 48a0502ea936f4b5da841de7a1c389d8, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: The first step in bettering the climate. Avoiding this will make your
-        life seriously harder...
+      value: First step in bettering the climate!
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -4576,7 +4568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7958273955882084064, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: '0 coins, it''s free!
+      value: '0 Coins
 
 '
       objectReference: {fileID: 0}
@@ -4723,8 +4715,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: 20ec9ef5cace0432ea9d81c0b9c23b6b, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This hard working and (slightly) climate conscious politician will make
-        sure less toxic waste is dumped into the ocean.
+      value: I make sure less toxic waste will be dumped into the ocean.
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -5735,9 +5726,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: 6f52f75c7e57b4613bddcc13e20017b9, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: Organic farming limits the amount of fertilizer used, which reduces
-        nitrogen pollution in the ocean, and helps to avoid 'Dead Zones' in the ocean,
-        where oxygen is sparse.
+      value: Helps to avoid 'Dead Zones' in the ocean, where oxygen is sparse.
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -5930,8 +5919,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: ba2149fc92ec145d2b63e72b75078b29, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: Protect areas at risk of overfishing by law. Fewer fishermen will be
-        encountered.
+      value: Protect marine life from overfishing.
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
