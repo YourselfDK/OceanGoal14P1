@@ -14,6 +14,8 @@ public class ShopItemVisual : MonoBehaviour
 
     private bool isSoldOut = false;
 
+    [SerializeField] ShopCoinCounter shopCoinCounter;
+
     private void Start()
     {
         soldOutPanel.SetActive(false);        // Hide panel initially
@@ -36,6 +38,7 @@ public class ShopItemVisual : MonoBehaviour
         // Add your purchase logic here (currency deduction, inventory, etc.)
         Debug.Log("Item purchased!");
         MainManager.Instance.CoinCount -= ItemPrice;
+        shopCoinCounter.UpdateBankAccount(MainManager.Instance.CoinCount);
         if (ItemType == "Fisher")
         {
             MainManager.Instance.FisherCleanup++;

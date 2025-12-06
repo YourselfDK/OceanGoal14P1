@@ -345,6 +345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadShop
   WhatIsNextLevel: 4
+  CoinManager: {fileID: 0}
 --- !u!61 &114605709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1582,6 +1583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
+  Coin: 0
   coinText: {fileID: 441642218}
   coinCollectSound: {fileID: 8300000, guid: e026554f2ca3a5f4db82120764b51c00, type: 3}
 --- !u!114 &453635235 stripped
@@ -2095,6 +2097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
+  Coin: 0
   coinText: {fileID: 0}
   coinCollectSound: {fileID: 0}
 --- !u!58 &629390625
@@ -2288,6 +2291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
+  Coin: 0
   coinText: {fileID: 0}
   coinCollectSound: {fileID: 0}
 --- !u!58 &672661981
@@ -4554,6 +4558,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: b1ec36733f1a6ea47899790b7c5a1a0b, type: 3}
   m_PrefabInstance: {fileID: 1440806089}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1442155066
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4046507154387940576, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_Name
+      value: 'Coin '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.609849
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.711039
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
 --- !u!1 &1464226411
 GameObject:
   m_ObjectHideFlags: 0
@@ -4887,6 +4948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
+  Coin: 0
   coinText: {fileID: 0}
   coinCollectSound: {fileID: 0}
 --- !u!58 &1486587218
@@ -7116,3 +7178,4 @@ SceneRoots:
   - {fileID: 2032059971}
   - {fileID: 400210511}
   - {fileID: 1369039364}
+  - {fileID: 1442155066}

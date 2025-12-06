@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 public class LoadShop : MonoBehaviour
 {
     public int WhatIsNextLevel = 1;
+    private bool d = true;
     [SerializeField] CoinCollection CoinManager;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {}
@@ -15,8 +17,8 @@ public class LoadShop : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             MainManager.Instance.CoinCount = MainManager.Instance.CoinCount + CoinManager.Coin;
-            Debug.Log(MainManager.Instance.CoinCount);
-            if (CoinManager.Coin==CoinManager.Coin)
+            Debug.Log("Coin Count = "+MainManager.Instance.CoinCount);
+            if (d == true)
             {
                 MainManager.Instance.LevelCount = WhatIsNextLevel;
                 MainManager.Instance.InShop = true;

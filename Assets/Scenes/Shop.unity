@@ -289,6 +289,7 @@ MonoBehaviour:
   ItemPrice: 15
   CleanUpType: []
   ItemType: ToxicWaste
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1 &208128006
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +822,7 @@ MonoBehaviour:
   ItemPrice: 15
   CleanUpType: []
   ItemType: MPlastic
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1001 &400084016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2463,6 +2465,7 @@ MonoBehaviour:
   ItemPrice: 15
   CleanUpType: []
   ItemType: ODeprived
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1 &703606365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2644,6 +2647,7 @@ MonoBehaviour:
   ItemPrice: 10
   CleanUpType: []
   ItemType: MPlastic
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1 &830798137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3509,6 +3513,7 @@ MonoBehaviour:
   ItemPrice: 15
   CleanUpType: []
   ItemType: Oil
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1 &1140234897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3555,6 +3560,7 @@ MonoBehaviour:
   - {fileID: 830798137}
   - {fileID: 1140234897}
   ItemType: Vote
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1 &1227607297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3588,6 +3594,7 @@ MonoBehaviour:
   ItemPrice: 15
   CleanUpType: []
   ItemType: Oil
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1 &1235686809 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3898,6 +3905,7 @@ MonoBehaviour:
   ItemPrice: 15
   CleanUpType: []
   ItemType: ToxicWaste
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1001 &1532283968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5316,6 +5324,7 @@ GameObject:
   - component: {fileID: 1964766335}
   - component: {fileID: 1964766337}
   - component: {fileID: 1964766336}
+  - component: {fileID: 1964766338}
   m_Layer: 5
   m_Name: Coin
   m_TagString: Untagged
@@ -5362,7 +5371,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Coins:***
+  m_text: Something is wrong!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5441,6 +5450,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964766334}
   m_CullTransparentMesh: 1
+--- !u!114 &1964766338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964766334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f95e1b9e01613214486cfd17224700ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopCoinCounter
+  bankAccountShower: {fileID: 1964766336}
 --- !u!1 &1999488445
 GameObject:
   m_ObjectHideFlags: 0
@@ -5694,6 +5716,7 @@ MonoBehaviour:
   ItemPrice: 15
   CleanUpType: []
   ItemType: Fisher
+  shopCoinCounter: {fileID: 1964766338}
 --- !u!1001 &2140056706
 PrefabInstance:
   m_ObjectHideFlags: 0
