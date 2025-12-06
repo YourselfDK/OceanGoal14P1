@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class LoadShop : MonoBehaviour
 {
     public int WhatIsNextLevel = 1;
-    [SerializeField] GameObject CoinManager;
+    [SerializeField] CoinCollection CoinManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {}
@@ -14,10 +14,14 @@ public class LoadShop : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            MainManager.Instance.LevelCount = WhatIsNextLevel;
-            MainManager.Instance.InShop = true;
-            SceneManager.LoadScene("Shop");
- 
+            MainManager.Instance.CoinCount = MainManager.Instance.CoinCount + CoinManager.Coin;
+            Debug.Log(MainManager.Instance.CoinCount);
+            if (CoinManager.Coin==CoinManager.Coin)
+            {
+                MainManager.Instance.LevelCount = WhatIsNextLevel;
+                MainManager.Instance.InShop = true;
+                SceneManager.LoadScene("Shop");
+            }
         }
     }
 
