@@ -4238,7 +4238,6 @@ GameObject:
   - component: {fileID: 1406886494}
   - component: {fileID: 1406886493}
   - component: {fileID: 1406886492}
-  - component: {fileID: 1406886491}
   m_Layer: 0
   m_Name: UpperLimit
   m_TagString: Untagged
@@ -4261,20 +4260,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 544318079}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1406886491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406886489}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 1828927720}
-  subject: {fileID: 1733803762}
 --- !u!50 &1406886492
 Rigidbody2D:
   serializedVersion: 5
@@ -5085,7 +5070,6 @@ GameObject:
   - component: {fileID: 1731619539}
   - component: {fileID: 1731619538}
   - component: {fileID: 1731619537}
-  - component: {fileID: 1731619536}
   m_Layer: 0
   m_Name: StartLimit
   m_TagString: Untagged
@@ -5108,20 +5092,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 544318079}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1731619536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731619534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 1828927720}
-  subject: {fileID: 1733803762}
 --- !u!50 &1731619537
 Rigidbody2D:
   serializedVersion: 5
@@ -6913,7 +6883,6 @@ GameObject:
   - component: {fileID: 2123651091}
   - component: {fileID: 2123651090}
   - component: {fileID: 2123651089}
-  - component: {fileID: 2123651088}
   m_Layer: 0
   m_Name: LowerLimit
   m_TagString: Untagged
@@ -6936,20 +6905,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 544318079}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2123651088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123651086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61233ae69d8f8e749bb1ced126522059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Parallax
-  cam: {fileID: 1828927720}
-  subject: {fileID: 1733803762}
 --- !u!50 &2123651089
 Rigidbody2D:
   serializedVersion: 5
