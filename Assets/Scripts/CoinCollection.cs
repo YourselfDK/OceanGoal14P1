@@ -8,15 +8,20 @@ public class CoinCollection : MonoBehaviour
 
     [SerializeField] private AudioClip coinCollectSound;
 
+    private void Start()
+    {
+        int totalCoins = Coin + MainManager.Instance.CoinCount;
+        coinText.text = "= " + totalCoins;
+    }
+
     private void OnTriggerEnter2D(Collider2D other) 
     { 
 
     if (other.transform.tag == "Coin")
     {
-
-            
+        int totalCoins = Coin + MainManager.Instance.CoinCount;
         Coin++;
-        coinText.text = "= " + Coin.ToString() + " (" + MainManager.Instance.CoinCount.ToString() + ")";
+        coinText.text = "= " + totalCoins;
         Debug.Log(Coin);
         SoundFXManager.Instance.PlaySoundFXClip(coinCollectSound, transform, 0.2f);
 
