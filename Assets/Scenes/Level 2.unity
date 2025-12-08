@@ -2149,6 +2149,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1466834229900349488, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
+      propertyPath: healthFill
+      value: 
+      objectReference: {fileID: 1583455026}
+    - target: {fileID: 1466834229900349488, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       propertyPath: gameOverManager
       value: 
       objectReference: {fileID: 1075142139}
@@ -2206,6 +2210,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3509125456632919422, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1393947170}
+    - targetCorrespondingSourceObject: {fileID: 3509125456632919422, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1393947171}
   m_SourcePrefab: {fileID: 100100000, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
 --- !u!4 &804518583 stripped
 Transform:
@@ -3983,6 +3990,10 @@ PrefabInstance:
       propertyPath: m_PixelPerfect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1118295786579136174, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5592258094380027011, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4069,7 +4080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8240597078781376978, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5067,6 +5078,25 @@ MonoBehaviour:
   Coin: 0
   coinText: {fileID: 656518289}
   coinCollectSound: {fileID: 8300000, guid: e026554f2ca3a5f4db82120764b51c00, type: 3}
+--- !u!114 &1393947171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393947167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3de993ddb1e63c458f12872e098cd55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OxygenSystem
+  maxOxygen: 100
+  oxygen: 100
+  regenWhileMoving: 12
+  drainWhileStill: 6
+  damagePerSecondAtZero: 10
+  movementThreshold: 0.1
+  oxygenFill: {fileID: 2016585283}
 --- !u!1 &1455057697
 GameObject:
   m_ObjectHideFlags: 0

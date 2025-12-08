@@ -17,8 +17,7 @@ public class GameOverManager : MonoBehaviour
 
     public void GameOver()
     {
-        if (GameIsOver) return;
-
+        //if (GameIsOver) return;
         GameIsOver = true;
         gameOverUI.SetActive(true);
         Time.timeScale = 0f;  // Pause game
