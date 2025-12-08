@@ -3797,6 +3797,10 @@ PrefabInstance:
       propertyPath: m_PixelPerfect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1118295786579136174, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5592258094380027011, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3883,7 +3887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8240597078781376978, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
