@@ -14,24 +14,24 @@ public class CoinCollection : MonoBehaviour
         coinText.text = "= " + totalCoins;
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
-    { 
-
-    if (other.transform.tag == "Coin")
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        int totalCoins = Coin + MainManager.Instance.CoinCount;
-        Coin++;
-        coinText.text = "= " + totalCoins;
-        Debug.Log(Coin);
-        SoundFXManager.Instance.PlaySoundFXClip(coinCollectSound, transform, 0.2f);
 
-        Destroy(other.gameObject);
+        if (other.transform.tag == "Coin")
+        {
+            int totalCoins = Coin + MainManager.Instance.CoinCount;
+            Coin++;
+            coinText.text = "= " + totalCoins;
+            Debug.Log(Coin);
+            SoundFXManager.Instance.PlaySoundFXClip(coinCollectSound, transform, 0.2f);
 
-       
+            Destroy(other.gameObject);
+
+
         }
 
     }
 
 
-    }
+}
 
