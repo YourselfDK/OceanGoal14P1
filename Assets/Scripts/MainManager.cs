@@ -16,6 +16,16 @@ public class MainManager : MonoBehaviour
     public int ODeprivedCleanup = 0; //Organic Farming + Wastewater Cleanup
     public int ToxicWasteCleanup = 0; //Minister of the Environment + Vote
 
+    public bool ProtectedAreaBought = false;
+    public bool BurnOilBought = false;
+    public bool MechanicalRemovalBought = false;
+    public bool PublicTransportBought = false;
+    public bool WashingMachineLawBought = false;
+    public bool OrganicFarmingBought = false;
+    public bool WasteWaterCleanupBought = false;
+    public bool MinisterOfTheEnvironmentBought = false;
+    public bool VoteBought = false;
+
     private void Awake()
     {
         if (Instance != null)

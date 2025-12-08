@@ -2005,7 +2005,6 @@ GameObject:
   - component: {fileID: 629390627}
   - component: {fileID: 629390626}
   - component: {fileID: 629390625}
-  - component: {fileID: 629390624}
   - component: {fileID: 629390623}
   m_Layer: 0
   m_Name: Coin (1)
@@ -2056,21 +2055,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &629390624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629390621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
-  Coin: 0
-  coinText: {fileID: 0}
-  coinCollectSound: {fileID: 0}
 --- !u!58 &629390625
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2199,7 +2183,6 @@ GameObject:
   - component: {fileID: 672661983}
   - component: {fileID: 672661982}
   - component: {fileID: 672661981}
-  - component: {fileID: 672661980}
   - component: {fileID: 672661979}
   m_Layer: 0
   m_Name: Coin (3)
@@ -2250,21 +2233,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &672661980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672661977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
-  Coin: 0
-  coinText: {fileID: 0}
-  coinCollectSound: {fileID: 0}
 --- !u!58 &672661981
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5443,7 +5411,6 @@ GameObject:
   - component: {fileID: 1486587220}
   - component: {fileID: 1486587219}
   - component: {fileID: 1486587218}
-  - component: {fileID: 1486587217}
   - component: {fileID: 1486587216}
   m_Layer: 0
   m_Name: Coin (2)
@@ -5494,21 +5461,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1486587217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486587214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
-  Coin: 0
-  coinText: {fileID: 0}
-  coinCollectSound: {fileID: 0}
 --- !u!58 &1486587218
 CircleCollider2D:
   m_ObjectHideFlags: 0

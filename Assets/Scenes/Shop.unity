@@ -241,6 +241,15 @@ MonoBehaviour:
   MPlasticCleanup: 0
   ODeprivedCleanup: 0
   ToxicWasteCleanup: 0
+  ProtectedAreaBought: 0
+  BurnOilBought: 0
+  MechanicalRemovalBought: 0
+  PublicTransportBought: 0
+  WashingMachineLawBought: 0
+  OrganicFarmingBought: 0
+  WasteWaterCleanupBought: 0
+  MinisterOfTheEnvironmentBought: 0
+  VoteBought: 0
 --- !u!4 &70502936
 Transform:
   m_ObjectHideFlags: 0
@@ -288,7 +297,7 @@ MonoBehaviour:
   soldOutPanel: {fileID: 1098863691}
   ItemPrice: 15
   CleanUpType: []
-  ItemType: ToxicWaste
+  ItemType: WasteWaterCleanup
   shopCoinCounter: {fileID: 1964766338}
   shopAudioSource: {fileID: 1286132793}
 --- !u!1 &208128006
@@ -822,7 +831,7 @@ MonoBehaviour:
   soldOutPanel: {fileID: 520344628}
   ItemPrice: 15
   CleanUpType: []
-  ItemType: MPlastic
+  ItemType: WashingMachineLaw
   shopCoinCounter: {fileID: 1964766338}
   shopAudioSource: {fileID: 1286132793}
 --- !u!1001 &400084016
@@ -2463,7 +2472,7 @@ MonoBehaviour:
   soldOutPanel: {fileID: 567613684}
   ItemPrice: 15
   CleanUpType: []
-  ItemType: ODeprived
+  ItemType: OrganicFarming
   shopCoinCounter: {fileID: 1964766338}
   shopAudioSource: {fileID: 1286132793}
 --- !u!1 &703606365
@@ -2646,7 +2655,7 @@ MonoBehaviour:
   soldOutPanel: {fileID: 875562416}
   ItemPrice: 10
   CleanUpType: []
-  ItemType: MPlastic
+  ItemType: PublicTransport
   shopCoinCounter: {fileID: 1964766338}
   shopAudioSource: {fileID: 1286132793}
 --- !u!1 &830798137 stripped
@@ -3512,7 +3521,7 @@ MonoBehaviour:
   soldOutPanel: {fileID: 703606365}
   ItemPrice: 15
   CleanUpType: []
-  ItemType: Oil
+  ItemType: MechanicalRemoval
   shopCoinCounter: {fileID: 1964766338}
   shopAudioSource: {fileID: 1286132793}
 --- !u!1 &1140234897 stripped
@@ -3595,7 +3604,7 @@ MonoBehaviour:
   soldOutPanel: {fileID: 2101388824}
   ItemPrice: 15
   CleanUpType: []
-  ItemType: Oil
+  ItemType: BurnOil
   shopCoinCounter: {fileID: 1964766338}
   shopAudioSource: {fileID: 1286132793}
 --- !u!1 &1235686809 stripped
@@ -3907,7 +3916,7 @@ MonoBehaviour:
   soldOutPanel: {fileID: 607504986}
   ItemPrice: 15
   CleanUpType: []
-  ItemType: ToxicWaste
+  ItemType: MinisterOfTheEnvironment
   shopCoinCounter: {fileID: 1964766338}
   shopAudioSource: {fileID: 1286132793}
 --- !u!1001 &1532283968
@@ -5726,7 +5735,7 @@ MonoBehaviour:
   soldOutPanel: {fileID: 673308454}
   ItemPrice: 15
   CleanUpType: []
-  ItemType: Fisher
+  ItemType: ProtectedArea
   shopCoinCounter: {fileID: 1964766338}
   shopAudioSource: {fileID: 1286132793}
 --- !u!1001 &2140056706

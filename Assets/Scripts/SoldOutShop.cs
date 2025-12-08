@@ -24,7 +24,64 @@ public class ShopItemVisual : MonoBehaviour
         foreach (GameObject go in CleanUpType)
         {
             print(go);
-            go.SetActive(false);
+            if(MainManager.Instance.VoteBought == true)
+            {
+                go.SetActive(true);
+            }
+            else
+            {
+                go.SetActive(false);
+            }
+
+            if (ItemType == "ProtectedArea" && MainManager.Instance.ProtectedAreaBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
+
+            if (ItemType == "BurnOil" && MainManager.Instance.BurnOilBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
+            if (ItemType == "MechanicalRemoval" && MainManager.Instance.MechanicalRemovalBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
+
+            if (ItemType == "PublicTransport" && MainManager.Instance.PublicTransportBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
+            if (ItemType == "WashingMachineLaw" && MainManager.Instance.WashingMachineLawBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
+
+            if (ItemType == "OrganicFarming" && MainManager.Instance.OrganicFarmingBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
+            if (ItemType == "WastewaterCleanup" && MainManager.Instance.WasteWaterCleanupBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
+
+            if (ItemType == "MinisterOfTheEnvironment" && MainManager.Instance.MinisterOfTheEnvironmentBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
+            if (ItemType == "Vote" && MainManager.Instance.VoteBought)
+            {
+                isSoldOut = true;
+                UpdateUI();
+            }
         }
 
         //CleanUpType = new GameObject[7];
@@ -42,28 +99,54 @@ public class ShopItemVisual : MonoBehaviour
         shopCoinCounter.UpdateBankAccount(MainManager.Instance.CoinCount);
         shopAudioSource.Play();
 
-        if (ItemType == "Fisher")
+        if (ItemType == "ProtectedArea")
         {
             MainManager.Instance.FisherCleanup++;
+            MainManager.Instance.ProtectedAreaBought = true;
         }
-        if (ItemType == "Oil")
+
+        if (ItemType == "BurnOil")
         {
             MainManager.Instance.OilCleanup++;
+            MainManager.Instance.BurnOilBought = true;
         }
-        if (ItemType == "MPlastic")
+        if (ItemType == "MechanicalRemoval")
+        {
+            MainManager.Instance.OilCleanup++;
+            MainManager.Instance.MechanicalRemovalBought = true;
+        }
+
+        if (ItemType == "PublicTransport")
         {
             MainManager.Instance.MPlasticCleanup++;
+            MainManager.Instance.PublicTransportBought = true;
         }
-        if (ItemType == "ODeprived")
+        if (ItemType == "WashingMachineLaw")
+        {
+            MainManager.Instance.MPlasticCleanup++;
+            MainManager.Instance.WashingMachineLawBought = true;
+        }
+
+        if (ItemType == "OrganicFarming")
         {
             MainManager.Instance.ODeprivedCleanup++;
+            MainManager.Instance.OrganicFarmingBought = true;
         }
-        if (ItemType == "ToxicWasteCleanup")
+        if (ItemType == "WastewaterCleanup")
+        {
+            MainManager.Instance.ODeprivedCleanup++;
+            MainManager.Instance.WasteWaterCleanupBought = true;
+        }
+
+        if (ItemType == "MinisterOfTheEnvironment")
         {
             MainManager.Instance.ToxicWasteCleanup++;
+            MainManager.Instance.MinisterOfTheEnvironmentBought = true;
         }
         if (ItemType == "Vote")
         {
+            MainManager.Instance.ToxicWasteCleanup++;
+            MainManager.Instance.VoteBought = true;
             foreach (GameObject go in CleanUpType)
             {
                 go.SetActive(true);
