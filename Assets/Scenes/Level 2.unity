@@ -7700,6 +7700,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 635514471}
     m_Modifications:
     - target: {fileID: 1135946255060077372, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
+      propertyPath: 'stopTimes.Array.data[0]'
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135946255060077372, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
+      propertyPath: 'stopTimes.Array.data[1]'
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135946255060077372, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
+      propertyPath: 'stopTimes.Array.data[2]'
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135946255060077372, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
+      propertyPath: 'stopTimes.Array.data[3]'
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135946255060077372, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
+      propertyPath: 'stopTimes.Array.data[4]'
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135946255060077372, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
       propertyPath: 'waypoints.Array.data[0]'
       value: 
       objectReference: {fileID: 412424834}
