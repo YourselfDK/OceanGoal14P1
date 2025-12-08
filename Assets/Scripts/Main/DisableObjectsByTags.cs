@@ -3,32 +3,23 @@ using UnityEngine.SceneManagement;
 
 public class DisableObjectsByTags : MonoBehaviour
 {
-    public enum CleanupLevel
-    {
-        None = 0,
-        Light = 1,
-        Tough = 2
-    }
-
-    [Header("Cleanup Levels (set in Inspector or via MainManager)")]
-    public CleanupLevel FisherCleanup = CleanupLevel.None;
-    public CleanupLevel OilCleanup = CleanupLevel.None;
-    public CleanupLevel MPlasticCleanup = CleanupLevel.None;
-    public CleanupLevel ODeprivedCleanup = CleanupLevel.None;
-    public CleanupLevel ToxicWasteCleanup = CleanupLevel.None;
+    [Header("Cleanup Levels (0=None, 1=Light, 2=Tough)")]
+    [Range(0, 2)] public int FisherCleanup = 0;
+    [Range(0, 2)] public int OilCleanup = 0;
+    [Range(0, 2)] public int MPlasticCleanup = 0;
+    [Range(0, 2)] public int ODeprivedCleanup = 0;
+    [Range(0, 2)] public int ToxicWasteCleanup = 0;
 
     [Tooltip("Disable objects on Start. Otherwise, objects are disabled when scene changes.")]
     public bool disableOnStart = true;
 
     void OnEnable()
     {
-        // Subscribe to sceneLoaded event (newer Unity API)
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void OnDisable()
     {
-        // Unsubscribe to avoid memory leaks
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
@@ -36,18 +27,37 @@ public class DisableObjectsByTags : MonoBehaviour
     {
         if (disableOnStart)
         {
+            SyncFromMainManager();
             DisableObjects();
         }
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Called automatically when a new scene is loaded
+        SyncFromMainManager();
         DisableObjects();
     }
 
     /// <summary>
-    /// Disables objects based on cleanup values (None, Light, Tough).
+    /// Sync inspector values with MainManager.Instance values.
+    /// </summary>
+    private void SyncFromMainManager()
+    {
+        if (MainManager.Instance == null)
+        {
+            Debug.LogWarning("MainManager.Instance is null!");
+            return;
+        }
+
+        FisherCleanup = MainManager.Instance.FisherCleanup;
+        OilCleanup = MainManager.Instance.OilCleanup;
+        MPlasticCleanup = MainManager.Instance.MPlasticCleanup;
+        ODeprivedCleanup = MainManager.Instance.ODeprivedCleanup;
+        ToxicWasteCleanup = MainManager.Instance.ToxicWasteCleanup;
+    }
+
+    /// <summary>
+    /// Disables objects based on cleanup values (0=None, 1=Light, 2=Tough).
     /// </summary>
     public void DisableObjects()
     {
@@ -62,15 +72,15 @@ public class DisableObjectsByTags : MonoBehaviour
         Debug.Log($"Total disabled objects: {totalDisabled}");
     }
 
-    private int HandleCleanup(CleanupLevel cleanupLevel, string lightTag, string toughTag)
+    private int HandleCleanup(int cleanupValue, string lightTag, string toughTag)
     {
         int disabledCount = 0;
 
-        if (cleanupLevel == CleanupLevel.Light)
+        if (cleanupValue == 1)
         {
             disabledCount += DisableByTag(lightTag);
         }
-        else if (cleanupLevel == CleanupLevel.Tough)
+        else if (cleanupValue == 2)
         {
             disabledCount += DisableByTag(lightTag);
             disabledCount += DisableByTag(toughTag);
