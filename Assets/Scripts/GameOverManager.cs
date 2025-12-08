@@ -22,6 +22,7 @@ public class GameOverManager : MonoBehaviour
         GameIsOver = true;
         gameOverUI.SetActive(true);
         Time.timeScale = 0f;  // Pause game
+        Debug.Log("Player has died");
     }
 
     public void RestartLevel()

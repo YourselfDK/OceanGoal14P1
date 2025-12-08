@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 100;
+    public GameOverManager gameOverManager;
 
     [Header("UI (optional)")]
     [Tooltip("Image must be set to Image.Type = Filled")]
@@ -25,7 +26,7 @@ public class PlayerHealth : MonoBehaviour
         UpdateUI();
 
         if (health <= 0)
-            Die();
+            gameOverManager.GameOver();
     }
 
     // Optional overload if other systems pass float damage

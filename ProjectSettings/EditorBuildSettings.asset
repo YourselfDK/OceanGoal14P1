@@ -27,11 +27,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 5.unity
     guid: 5bf6cd5b7939a7e4ebb210a5eaf3b487
   - enabled: 1
-    path: Assets/Scenes/Enemyfollow.unity
-    guid: a4057c0bd32aac040975a9d05e2b5988
-  - enabled: 1
     path: Assets/Scenes/Level 6.unity
     guid: d3e0171ca7f328244ae20e4e49c07a95
+  - enabled: 1
+    path: Assets/Scenes/Enemyfollow.unity
+    guid: a4057c0bd32aac040975a9d05e2b5988
   - enabled: 1
     path: Assets/Scenes/Encyclopedia.unity
     guid: 36ce5bbf9b26d4441839caa680ba3c69
