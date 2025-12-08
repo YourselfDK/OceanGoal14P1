@@ -60,6 +60,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5983953656595698752, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_TagString
+      value: MicroplasticTough
+      objectReference: {fileID: 0}
     - target: {fileID: 7009836754720813256, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
