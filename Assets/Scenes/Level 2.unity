@@ -927,6 +927,10 @@ PrefabInstance:
       propertyPath: m_MaxParticleSize
       value: 0.013
       objectReference: {fileID: 0}
+    - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 8748719565500518681, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1060,6 +1064,10 @@ PrefabInstance:
     - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_MaxParticleSize
       value: 0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 8748719565500518681, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_Layer
@@ -2046,6 +2054,10 @@ PrefabInstance:
     - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_MaxParticleSize
       value: 0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 8748719565500518681, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_Layer
@@ -3769,6 +3781,10 @@ PrefabInstance:
       propertyPath: m_MaxParticleSize
       value: 0.013
       objectReference: {fileID: 0}
+    - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 8748719565500518681, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -4703,6 +4719,10 @@ PrefabInstance:
       propertyPath: m_MaxParticleSize
       value: 0.013
       objectReference: {fileID: 0}
+    - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 8748719565500518681, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -5014,6 +5034,10 @@ PrefabInstance:
     - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_MaxParticleSize
       value: 0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 8748719565500518681, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_Layer
@@ -5963,6 +5987,10 @@ PrefabInstance:
     - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_MaxParticleSize
       value: 0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 8748719565500518681, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_Layer
@@ -7414,6 +7442,10 @@ PrefabInstance:
       propertyPath: m_MaxParticleSize
       value: 0.013
       objectReference: {fileID: 0}
+    - target: {fileID: 7703734422139440641, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 8748719565500518681, guid: 55da9e82693e9bf4fada26ff69014211, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -7640,6 +7672,10 @@ PrefabInstance:
     - target: {fileID: 95619106300639751, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 791909873662313678, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
