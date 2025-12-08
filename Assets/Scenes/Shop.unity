@@ -290,6 +290,7 @@ MonoBehaviour:
   CleanUpType: []
   ItemType: ToxicWaste
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1 &208128006
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,6 +824,7 @@ MonoBehaviour:
   CleanUpType: []
   ItemType: MPlastic
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1001 &400084016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -979,7 +981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1405,7 +1407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2316,7 +2318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2463,6 +2465,7 @@ MonoBehaviour:
   CleanUpType: []
   ItemType: ODeprived
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1 &703606365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2645,6 +2648,7 @@ MonoBehaviour:
   CleanUpType: []
   ItemType: MPlastic
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1 &830798137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -2967,7 +2971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -3510,6 +3514,7 @@ MonoBehaviour:
   CleanUpType: []
   ItemType: Oil
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1 &1140234897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3557,6 +3562,7 @@ MonoBehaviour:
   - {fileID: 1140234897}
   ItemType: Vote
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1 &1227607297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7505517515705553082, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3591,6 +3597,7 @@ MonoBehaviour:
   CleanUpType: []
   ItemType: Oil
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1 &1235686809 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6205442571498197366, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
@@ -3902,6 +3909,7 @@ MonoBehaviour:
   CleanUpType: []
   ItemType: ToxicWaste
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1001 &1532283968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4090,7 +4098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -4103,7 +4111,7 @@ PrefabInstance:
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11500000, guid: 4bf1678585fde417db25666f9d81a01a, type: 3}
+      objectReference: {fileID: 1286132793}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -4117,12 +4125,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UnityEngine.AudioSource, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -4436,7 +4456,7 @@ PrefabInstance:
       objectReference: {fileID: -8328923581568760697, guid: 48a0502ea936f4b5da841de7a1c389d8, type: 3}
     - target: {fileID: 1951012839433384079, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: First step in bettering the climate!
+      value: The first step in bettering the climate!
       objectReference: {fileID: 0}
     - target: {fileID: 2034335068768230484, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
@@ -4578,7 +4598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -4590,11 +4610,11 @@ PrefabInstance:
       objectReference: {fileID: 1286132793}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -4877,7 +4897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -5708,6 +5728,7 @@ MonoBehaviour:
   CleanUpType: []
   ItemType: Fisher
   shopCoinCounter: {fileID: 1964766338}
+  shopAudioSource: {fileID: 1286132793}
 --- !u!1001 &2140056706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5864,7 +5885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -6073,7 +6094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8869765306198479111, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode

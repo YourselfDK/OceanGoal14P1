@@ -15,6 +15,7 @@ public class ShopItemVisual : MonoBehaviour
     private bool isSoldOut = false;
 
     [SerializeField] ShopCoinCounter shopCoinCounter;
+    [SerializeField] AudioSource shopAudioSource;
 
     private void Start()
     {
@@ -39,6 +40,8 @@ public class ShopItemVisual : MonoBehaviour
         Debug.Log("Item purchased!");
         MainManager.Instance.CoinCount -= ItemPrice;
         shopCoinCounter.UpdateBankAccount(MainManager.Instance.CoinCount);
+        shopAudioSource.Play();
+
         if (ItemType == "Fisher")
         {
             MainManager.Instance.FisherCleanup++;
