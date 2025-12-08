@@ -6,7 +6,7 @@ public class MainManager : MonoBehaviour
 
     public static MainManager Instance;
     public int HealthCount;
-    public int CoinCount;
+    public int CoinCount; //Counts coins that dont reset between scenes, coins added to this wont dissapear on death!
     public int LevelCount;
     public bool InShop = false;
 
