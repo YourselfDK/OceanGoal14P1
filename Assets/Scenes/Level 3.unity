@@ -1901,6 +1901,10 @@ PrefabInstance:
       propertyPath: gameOverManager
       value: 
       objectReference: {fileID: 776891554}
+    - target: {fileID: 1466834229900349488, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
+      propertyPath: playerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 3509125456632919422, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       propertyPath: m_Name
       value: Player
