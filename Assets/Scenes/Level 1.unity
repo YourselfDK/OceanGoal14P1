@@ -2816,6 +2816,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 532502090926999245, guid: d6755aa57bef19847801e278a6c596ef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 796952868}
     - targetCorrespondingSourceObject: {fileID: 604508953846963578, guid: d6755aa57bef19847801e278a6c596ef, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2124732870}
@@ -2823,6 +2826,25 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2124732871}
   m_SourcePrefab: {fileID: 100100000, guid: d6755aa57bef19847801e278a6c596ef, type: 3}
+--- !u!1 &796952867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 532502090926999245, guid: d6755aa57bef19847801e278a6c596ef, type: 3}
+  m_PrefabInstance: {fileID: 796952866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &796952868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796952867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
+  playerHealth: {fileID: 1733803778}
+  damage: 20
 --- !u!1001 &798659662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5500,6 +5522,15 @@ MonoBehaviour:
   MPlasticCleanup: 0
   ODeprivedCleanup: 0
   ToxicWasteCleanup: 0
+  ProtectedAreaBought: 0
+  BurnOilBought: 0
+  MechanicalRemovalBought: 0
+  PublicTransportBought: 0
+  WashingMachineLawBought: 0
+  OrganicFarmingBought: 0
+  WasteWaterCleanupBought: 0
+  MinisterOfTheEnvironmentBought: 0
+  VoteBought: 0
 --- !u!4 &1716770710
 Transform:
   m_ObjectHideFlags: 0
