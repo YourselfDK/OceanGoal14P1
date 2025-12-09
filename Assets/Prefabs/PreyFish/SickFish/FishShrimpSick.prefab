@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishShrimpSick
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: b6d5d103bda79e94984f25bf81fc75f9, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: b6d5d103bda79e94984f25bf81fc75f9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.48

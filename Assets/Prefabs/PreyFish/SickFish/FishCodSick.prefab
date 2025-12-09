@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishCodSick
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 0a7255c9b666ea04ca2ae2732c5f8c4c, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 0a7255c9b666ea04ca2ae2732c5f8c4c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.507452

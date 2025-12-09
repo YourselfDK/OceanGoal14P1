@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishBlackGobySick
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: cae768ff5423cc948b1a9775214a86c8, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: cae768ff5423cc948b1a9775214a86c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.462627
