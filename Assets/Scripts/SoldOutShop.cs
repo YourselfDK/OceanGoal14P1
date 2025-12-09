@@ -32,12 +32,13 @@ public class ShopItemVisual : MonoBehaviour
             {
                 go.SetActive(false);
             }
+        }
 
-            if (ItemType == "ProtectedArea" && MainManager.Instance.ProtectedAreaBought)
-            {
-                isSoldOut = true;
-                UpdateUI();
-            }
+        if (ItemType == "ProtectedArea" && MainManager.Instance.ProtectedAreaBought)
+        {
+            isSoldOut = true;
+            UpdateUI();
+        }
 
             if (ItemType == "BurnOil" && MainManager.Instance.BurnOilBought)
             {
@@ -82,7 +83,6 @@ public class ShopItemVisual : MonoBehaviour
                 isSoldOut = true;
                 UpdateUI();
             }
-        }
 
         //CleanUpType = new GameObject[7];
         //CleanUpType[1] = new GameObject();
@@ -160,7 +160,7 @@ public class ShopItemVisual : MonoBehaviour
 
     private void UpdateUI()
     {
-        buyButton.interactable = !isSoldOut;      // Disable button
+        buyButton.interactable = isSoldOut;      // Disable button
         soldOutPanel.SetActive(isSoldOut);        // Show red panel
     }
 }
