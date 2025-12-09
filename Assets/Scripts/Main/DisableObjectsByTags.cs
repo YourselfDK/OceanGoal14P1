@@ -12,6 +12,7 @@ public class DisableObjectsByTags : MonoBehaviour
 
     [Tooltip("Disable objects on Start. Otherwise, objects are disabled when scene changes.")]
     public bool disableOnStart = true;
+    public bool disableOnSceneLoad = true;
 
     // List of all tags this script depends on
     private readonly string[] requiredTags = new string[]
