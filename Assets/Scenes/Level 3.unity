@@ -1341,10 +1341,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: fishing_net (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
-      propertyPath: m_TagString
-      value: FisherLight
-      objectReference: {fileID: 0}
     - target: {fileID: 5256301041854137333, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.63
@@ -1388,35 +1384,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 403999206}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
 --- !u!4 &403999204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5256301041854137333, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
   m_PrefabInstance: {fileID: 403999203}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &403999205 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
-  m_PrefabInstance: {fileID: 403999203}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &403999206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 403999205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  playerHealth: {fileID: 453635235}
-  damage: 20
 --- !u!1001 &448554664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1769,10 +1743,6 @@ PrefabInstance:
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
       value: Micoplastic_Highlights Variant (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
-      propertyPath: m_TagString
-      value: MicroplasticLight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4102,10 +4072,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Micoplastic_Highlights Variant (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
-      propertyPath: m_TagString
-      value: MicroplasticLight
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4273,10 +4239,6 @@ PrefabInstance:
     - target: {fileID: 4249071601565059956, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
       propertyPath: m_Name
       value: Fiskekutter_s Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 4249071601565059956, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
-      propertyPath: m_TagString
-      value: FisherLight
       objectReference: {fileID: 0}
     - target: {fileID: 7775702893320296348, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
       propertyPath: playerHealth
@@ -4501,9 +4463,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil_spill_big (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
-      propertyPath: m_TagString
-      value: ToxicWasteTough
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: playerHealth
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipX
@@ -5765,35 +5727,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1542596517}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
 --- !u!4 &1542596515 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5256301041854137333, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
   m_PrefabInstance: {fileID: 1542596514}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1542596516 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
-  m_PrefabInstance: {fileID: 1542596514}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1542596517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542596516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  playerHealth: {fileID: 453635235}
-  damage: 20
 --- !u!1 &1554486606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6892,10 +6832,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil_spill_small (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4215251406088752308, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
-      propertyPath: m_TagString
-      value: ToxicWasteTough
-      objectReference: {fileID: 0}
     - target: {fileID: 7535242069974846264, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -7317,10 +7253,6 @@ PrefabInstance:
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
       value: Micoplastic_Highlights Variant (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
-      propertyPath: m_TagString
-      value: MicroplasticLight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8139,7 +8071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4215251406088752308, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: m_TagString
-      value: MicroplasticLight
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8209,7 +8141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509031358655485213, guid: 66f4341c9e6f8a946811dafee4bcc037, type: 3}
       propertyPath: m_TagString
-      value: ToxicWasteLight
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
