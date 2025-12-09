@@ -4120,6 +4120,15 @@ MonoBehaviour:
   MPlasticCleanup: 0
   ODeprivedCleanup: 0
   ToxicWasteCleanup: 0
+  ProtectedAreaBought: 0
+  BurnOilBought: 0
+  MechanicalRemovalBought: 0
+  PublicTransportBought: 0
+  WashingMachineLawBought: 0
+  OrganicFarmingBought: 0
+  WasteWaterCleanupBought: 0
+  MinisterOfTheEnvironmentBought: 0
+  VoteBought: 0
 --- !u!4 &1213454443
 Transform:
   m_ObjectHideFlags: 0
@@ -4454,6 +4463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil_spill_big (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 453635235}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipX
       value: 0
