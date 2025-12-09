@@ -10043,6 +10043,7 @@ MonoBehaviour:
   ODeprivedCleanup: 0
   ToxicWasteCleanup: 0
   disableOnStart: 1
+  disableOnSceneLoad: 1
 --- !u!1001 &1978556186
 PrefabInstance:
   m_ObjectHideFlags: 0
