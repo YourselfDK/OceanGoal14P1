@@ -5471,6 +5471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716770710}
   - component: {fileID: 1716770709}
+  - component: {fileID: 1716770711}
   m_Layer: 0
   m_Name: MainManager
   m_TagString: Untagged
@@ -5514,6 +5515,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1716770711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716770708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe0dbd7e22567d43a4d5ea4de8dda89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DisableObjectsByTags
+  FisherCleanup: 0
+  OilCleanup: 0
+  MPlasticCleanup: 0
+  ODeprivedCleanup: 0
+  ToxicWasteCleanup: 0
+  disableOnStart: 1
 --- !u!4 &1727655140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1054618347187686365, guid: e53d7e93b0a58e2418824f102cae54aa, type: 3}

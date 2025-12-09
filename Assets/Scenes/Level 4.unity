@@ -1519,9 +1519,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 791909873662313678, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
       value: Micoplastic_Highlights Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_TagString
+      value: MicroplasticLight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1588,6 +1596,10 @@ PrefabInstance:
     - target: {fileID: 95619106300639751, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 791909873662313678, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
@@ -1844,6 +1856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oil_spill_medium
       objectReference: {fileID: 0}
+    - target: {fileID: 7509031358655485213, guid: 66f4341c9e6f8a946811dafee4bcc037, type: 3}
+      propertyPath: m_TagString
+      value: OilspillTough
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1901,6 +1917,10 @@ PrefabInstance:
     - target: {fileID: 95619106300639751, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 791909873662313678, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
@@ -2057,6 +2077,10 @@ PrefabInstance:
     - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_Name
       value: Oil_spill_big (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: m_TagString
+      value: MicroplasticTough
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: damage
@@ -2653,6 +2677,10 @@ PrefabInstance:
     - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_Name
       value: Oil_spill_big
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: m_TagString
+      value: OilspillTough
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: damage
@@ -4626,6 +4654,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 791909873662313678, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
       value: Micoplastic_Highlights Variant (3)
@@ -5213,7 +5245,6 @@ GameObject:
   - component: {fileID: 1394551583}
   - component: {fileID: 1394551582}
   - component: {fileID: 1394551581}
-  - component: {fileID: 1394551580}
   - component: {fileID: 1394551579}
   m_Layer: 0
   m_Name: Coin (2)
@@ -5264,21 +5295,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1394551580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394551577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
-  Coin: 0
-  coinText: {fileID: 0}
-  coinCollectSound: {fileID: 0}
 --- !u!58 &1394551581
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5892,7 +5908,6 @@ GameObject:
   - component: {fileID: 1618364325}
   - component: {fileID: 1618364324}
   - component: {fileID: 1618364323}
-  - component: {fileID: 1618364322}
   - component: {fileID: 1618364321}
   m_Layer: 0
   m_Name: Coin (1)
@@ -5943,21 +5958,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1618364322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618364319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
-  Coin: 0
-  coinText: {fileID: 0}
-  coinCollectSound: {fileID: 0}
 --- !u!58 &1618364323
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6122,6 +6122,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 791909873662313678, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
       value: Micoplastic_Highlights Variant (2)
@@ -6148,7 +6152,6 @@ GameObject:
   - component: {fileID: 1647038730}
   - component: {fileID: 1647038729}
   - component: {fileID: 1647038728}
-  - component: {fileID: 1647038727}
   - component: {fileID: 1647038726}
   m_Layer: 0
   m_Name: Coin (3)
@@ -6199,21 +6202,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1647038727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1647038724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b81c8013c23414fa2fc4221a17a6b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CoinCollection
-  Coin: 0
-  coinText: {fileID: 0}
-  coinCollectSound: {fileID: 0}
 --- !u!58 &1647038728
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6394,6 +6382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil_spill_small
       objectReference: {fileID: 0}
+    - target: {fileID: 4215251406088752308, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
+      propertyPath: m_TagString
+      value: OilspillLight
+      objectReference: {fileID: 0}
     - target: {fileID: 7535242069974846264, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -6463,6 +6455,10 @@ PrefabInstance:
     - target: {fileID: 95619106300639751, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 791909873662313678, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
@@ -6546,6 +6542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oil_spill_medium (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7509031358655485213, guid: 66f4341c9e6f8a946811dafee4bcc037, type: 3}
+      propertyPath: m_TagString
+      value: MicroplasticLight
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6594,6 +6594,15 @@ MonoBehaviour:
   MPlasticCleanup: 0
   ODeprivedCleanup: 0
   ToxicWasteCleanup: 0
+  ProtectedAreaBought: 0
+  BurnOilBought: 0
+  MechanicalRemovalBought: 0
+  PublicTransportBought: 0
+  WashingMachineLawBought: 0
+  OrganicFarmingBought: 0
+  WasteWaterCleanupBought: 0
+  MinisterOfTheEnvironmentBought: 0
+  VoteBought: 0
 --- !u!4 &1724198879
 Transform:
   m_ObjectHideFlags: 0
@@ -7012,6 +7021,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 791909873662313678, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
+      propertyPath: m_MinParticleSize
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 3683665583898828431, guid: ec11660f1cdd5e440acf3ce18707b584, type: 3}
       propertyPath: m_Name
       value: Micoplastic_Highlights Variant (1)
@@ -7037,6 +7050,10 @@ PrefabInstance:
     - target: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
       propertyPath: m_Name
       value: fishing_net (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
+      propertyPath: m_TagString
+      value: FisherLight
       objectReference: {fileID: 0}
     - target: {fileID: 5256301041854137333, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
       propertyPath: m_LocalScale.z
@@ -7455,6 +7472,10 @@ PrefabInstance:
     - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_Name
       value: Oil_spill_big
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: m_TagString
+      value: OilspillTough
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: playerHealth
