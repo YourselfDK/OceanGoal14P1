@@ -1373,6 +1373,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543980797}
     m_Modifications:
+    - target: {fileID: 1734255640586963, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
       propertyPath: m_Name
       value: fishing_net (1)
