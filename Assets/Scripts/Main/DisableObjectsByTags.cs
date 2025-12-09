@@ -13,6 +13,16 @@ public class DisableObjectsByTags : MonoBehaviour
     [Tooltip("Disable objects on Start. Otherwise, objects are disabled when scene changes.")]
     public bool disableOnStart = true;
 
+    // List of all tags this script depends on
+    private readonly string[] requiredTags = new string[]
+    {
+        "FisherLight", "FisherTough",
+        "OilspillLight", "OilspillTough",
+        "MicroplasticLight", "MicroplasticTough",
+        "OxygenDeprivedLight", "OxygenDeprivedTough",
+        "ToxicWasteLight", "ToxicWasteTough"
+    };
+
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -25,6 +35,8 @@ public class DisableObjectsByTags : MonoBehaviour
 
     void Start()
     {
+        ValidateTags(); // 🔍 sanity check before doing anything
+
         if (disableOnStart)
         {
             SyncFromMainManager();
@@ -34,6 +46,7 @@ public class DisableObjectsByTags : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        ValidateTags(); // 🔍 sanity check on scene load
         SyncFromMainManager();
         DisableObjects();
     }
@@ -93,7 +106,16 @@ public class DisableObjectsByTags : MonoBehaviour
     {
         if (string.IsNullOrEmpty(tag)) return 0;
 
-        GameObject[] objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
+        GameObject[] objectsWithTag;
+        try
+        {
+            objectsWithTag = GameObject.FindGameObjectsWithTag(tag);
+        }
+        catch
+        {
+            Debug.LogError($"[DisableObjectsByTags] Tag '{tag}' is not defined in the project!");
+            return 0;
+        }
 
         foreach (GameObject obj in objectsWithTag)
         {
@@ -104,5 +126,25 @@ public class DisableObjectsByTags : MonoBehaviour
             Debug.Log($"{objectsWithTag.Length} GameObjects with tag '{tag}' were disabled.");
 
         return objectsWithTag.Length;
+    }
+
+    /// <summary>
+    /// Sanity check: verify all required tags exist in the project.
+    /// </summary>
+    private void ValidateTags()
+    {
+        foreach (string tag in requiredTags)
+        {
+            try
+            {
+                // Unity throws if CompareTag is called with an undefined tag
+                new GameObject().CompareTag(tag);
+            }
+            catch
+            {
+                Debug.LogError($"[DisableObjectsByTags] Missing tag definition: '{tag}'. " +
+                               $"Add it in Edit > Project Settings > Tags and Layers.");
+            }
+        }
     }
 }
