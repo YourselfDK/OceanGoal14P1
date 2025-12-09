@@ -1849,6 +1849,10 @@ PrefabInstance:
       value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 7392292067374272952, guid: 66f4341c9e6f8a946811dafee4bcc037, type: 3}
+      propertyPath: damage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392292067374272952, guid: 66f4341c9e6f8a946811dafee4bcc037, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1945387474}
@@ -2084,7 +2088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: damage
-      value: 30
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: playerHealth
@@ -2530,7 +2534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1945387474}
-  damage: 20
+  damage: 30
 --- !u!1 &719523281
 GameObject:
   m_ObjectHideFlags: 0
@@ -2684,7 +2688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: damage
-      value: 30
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: playerHealth
@@ -3313,7 +3317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1945387474}
-  damage: 20
+  damage: 25
 --- !u!1001 &829686988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4973,7 +4977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1945387474}
-  damage: 20
+  damage: 25
 --- !u!1001 &1343839057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6328,7 +6332,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1095953202541122894, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: damage
-      value: 15
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095953202541122894, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1095953202541122894, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: playerHealth
@@ -6533,6 +6541,10 @@ PrefabInstance:
     - target: {fileID: 1648204394806046068, guid: 66f4341c9e6f8a946811dafee4bcc037, type: 3}
       propertyPath: m_Offset.y
       value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7392292067374272952, guid: 66f4341c9e6f8a946811dafee4bcc037, type: 3}
+      propertyPath: damage
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7392292067374272952, guid: 66f4341c9e6f8a946811dafee4bcc037, type: 3}
       propertyPath: playerHealth
@@ -7476,6 +7488,10 @@ PrefabInstance:
     - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_TagString
       value: OilspillTough
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: damage
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: playerHealth
