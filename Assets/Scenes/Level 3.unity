@@ -4466,7 +4466,7 @@ PrefabInstance:
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: playerHealth
       value: 
-      objectReference: {fileID: 453635235}
+      objectReference: {fileID: 0}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipX
       value: 0
