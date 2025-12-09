@@ -19,8 +19,8 @@ public class CoinCollection : MonoBehaviour
 
         if (other.transform.tag == "Coin")
         {
-            int totalCoins = Coin + MainManager.Instance.CoinCount;
             Coin++;
+            int totalCoins = Coin + MainManager.Instance.CoinCount;
             coinText.text = "= " + totalCoins;
             Debug.Log(Coin);
             SoundFXManager.Instance.PlaySoundFXClip(coinCollectSound, transform, 0.2f);
