@@ -2368,6 +2368,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1299217174}
     m_Modifications:
+    - target: {fileID: 1734255640586963, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734255640586963, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
       propertyPath: m_Name
       value: fishing_net
@@ -2955,6 +2963,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1299217174}
     m_Modifications:
     - target: {fileID: 152863943541716812, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 152863943541716812, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
@@ -3016,7 +3028,7 @@ PrefabInstance:
       objectReference: {fileID: 1945387474}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipY
@@ -5073,6 +5085,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1299217174}
     m_Modifications:
     - target: {fileID: 152863943541716812, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 152863943541716812, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.935
       objectReference: {fileID: 0}
@@ -5130,7 +5146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipY
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7187164718427925061, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_Size.x
@@ -6589,6 +6605,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1299217174}
     m_Modifications:
+    - target: {fileID: -2533567015678491262, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1095953202541122894, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: damage
       value: 20
@@ -6601,6 +6621,14 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1945387474}
+    - target: {fileID: 4004384367024891089, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004384367024891089, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4004384367024891089, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: m_LocalScale.z
       value: 0
@@ -6655,7 +6683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7535242069974846264, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7535242069974846264, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: m_FlipY
@@ -7380,6 +7408,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1299217174}
     m_Modifications:
+    - target: {fileID: 1734255640586963, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734255640586963, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 4980941043995044752, guid: 38f95e748140ffa4ba8834eda06522b9, type: 3}
       propertyPath: m_Name
       value: fishing_net (1)

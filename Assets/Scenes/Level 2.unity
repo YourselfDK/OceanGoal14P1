@@ -707,6 +707,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: MicroplasticLight
       objectReference: {fileID: 0}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1393947168}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.080999
@@ -1222,6 +1226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floating plastic bottle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1393947168}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.504
@@ -1423,6 +1431,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: MicroplasticTough
       objectReference: {fileID: 0}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1393947168}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.625
@@ -3482,6 +3494,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: MicroplasticLight
       objectReference: {fileID: 0}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1393947168}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.502
@@ -8131,6 +8147,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: MicroplasticLight
       objectReference: {fileID: 0}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1393947168}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.385
@@ -9567,6 +9587,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: MicroplasticTough
       objectReference: {fileID: 0}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1393947168}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.035
@@ -10183,6 +10207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floating plastic bottle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1393947168}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.953
