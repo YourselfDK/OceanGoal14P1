@@ -407,25 +407,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 798638108}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &120225270 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8613720738939259179, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
-  m_PrefabInstance: {fileID: 996711898}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &120225273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120225270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  playerHealth: {fileID: 453635235}
-  damage: 35
 --- !u!1 &124783105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,7 +1605,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403999205}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
   m_Name: 
@@ -3707,20 +3688,28 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2708386230739153381, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
+      propertyPath: 'stopTimes.Array.data[0]'
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708386230739153381, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
+      propertyPath: 'stopTimes.Array.data[1]'
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708386230739153381, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
       propertyPath: 'stopTimes.Array.data[2]'
-      value: 3.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2708386230739153381, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
       propertyPath: 'stopTimes.Array.data[3]'
-      value: 3.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2708386230739153381, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
       propertyPath: 'stopTimes.Array.data[4]'
-      value: 3.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2708386230739153381, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
       propertyPath: 'stopTimes.Array.data[5]'
-      value: 3.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2708386230739153381, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
       propertyPath: 'waypoints.Array.data[0]'
@@ -3794,9 +3783,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8613720738939259179, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 2973329318618866098, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 120225273}
+      addedObject: {fileID: 1990381650}
   m_SourcePrefab: {fileID: 100100000, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
 --- !u!4 &996711899 stripped
 Transform:
@@ -4185,25 +4174,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1109649013 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4249071601565059956, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
-  m_PrefabInstance: {fileID: 1217826067}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1109649016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109649013}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  playerHealth: {fileID: 453635235}
-  damage: 30
 --- !u!1 &1133874393
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,6 +4308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213454443}
   - component: {fileID: 1213454442}
+  - component: {fileID: 1213454444}
   m_Layer: 0
   m_Name: MainManager
   m_TagString: Untagged
@@ -4390,6 +4361,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1213454444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213454441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe0dbd7e22567d43a4d5ea4de8dda89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DisableObjectsByTags
+  FisherCleanup: 0
+  OilCleanup: 0
+  MPlasticCleanup: 0
+  ODeprivedCleanup: 0
+  ToxicWasteCleanup: 0
+  disableOnStart: 1
+  disableOnSceneLoad: 1
 --- !u!1001 &1217826067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4487,16 +4477,17 @@ PrefabInstance:
       value: Fiskekutter_s Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7775702893320296348, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
+      propertyPath: damage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7775702893320296348, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 453635235}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4249071601565059956, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1109649016}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
 --- !u!4 &1217826068 stripped
 Transform:
@@ -8116,6 +8107,25 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3887917340174549461, guid: 67ce66058b700fc41a125427e7244da9, type: 3}
   m_PrefabInstance: {fileID: 1968332828}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1990381647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2973329318618866098, guid: 4d332166b6afec64c8438f74e78dc468, type: 3}
+  m_PrefabInstance: {fileID: 996711898}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1990381650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990381647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f89f10b93c9fc24b83463a1fdc885ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
+  playerHealth: {fileID: 453635235}
+  damage: 35
 --- !u!1 &2032059970
 GameObject:
   m_ObjectHideFlags: 0
@@ -8950,6 +8960,10 @@ PrefabInstance:
     - target: {fileID: 1149243078985604905, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_Name
       value: Oil_spill_big
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: playerHealth
