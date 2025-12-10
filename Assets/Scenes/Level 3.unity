@@ -1260,6 +1260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 453635235}
   damage: 20
+  PlayerTakeDamage: {fileID: 0}
 --- !u!1 &352855953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,6 +1613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 453635235}
   damage: 25
+  PlayerTakeDamage: {fileID: 0}
 --- !u!1 &404878003
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,6 +2018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 453635235}
   damage: 20
+  PlayerTakeDamage: {fileID: 0}
 --- !u!114 &453635243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2032,7 +2035,7 @@ MonoBehaviour:
   oxygen: 100
   regenWhileMoving: 12
   drainWhileStill: 20
-  damagePerSecondAtZero: 10
+  damagePerSecondAtZero: 5
   movementThreshold: 0.1
   oxygenFill: {fileID: 1640467460}
 --- !u!1 &454837912
@@ -6145,6 +6148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 453635235}
   damage: 25
+  PlayerTakeDamage: {fileID: 0}
 --- !u!1 &1554486606
 GameObject:
   m_ObjectHideFlags: 0
@@ -8214,6 +8218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 453635235}
   damage: 35
+  PlayerTakeDamage: {fileID: 0}
 --- !u!1 &2032059970
 GameObject:
   m_ObjectHideFlags: 0
