@@ -9,6 +9,7 @@ public class MainManager : MonoBehaviour
     public int CoinCount; //Counts coins that dont reset between scenes, coins added to this wont dissapear on death!
     public int LevelCount;
     public bool InShop = false;
+    public float Timer;
 
     public int FisherCleanup = 0; //Protected Area
     public int OilCleanup = 0; // Burn Oil + Mechanical Removal
