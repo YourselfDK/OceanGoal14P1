@@ -11,7 +11,7 @@ public class CoinCollection : MonoBehaviour
     private void Start()
     {
         int totalCoins = Coin + MainManager.Instance.CoinCount;
-        coinText.text = "= " + totalCoins;
+        coinText.text = totalCoins.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -21,7 +21,7 @@ public class CoinCollection : MonoBehaviour
         {
             Coin++;
             int totalCoins = Coin + MainManager.Instance.CoinCount;
-            coinText.text = "= " + totalCoins;
+            coinText.text = totalCoins.ToString();
             Debug.Log(Coin);
             SoundFXManager.Instance.PlaySoundFXClip(coinCollectSound, transform, 0.2f);
 

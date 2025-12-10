@@ -7,7 +7,7 @@ public class OxygenSystem : MonoBehaviour
 {
     [Header("Oxygen")]
     public float maxOxygen = 100f;
-    public float oxygen = 100f;
+    [SerializeField] private float oxygen = 100f;   // shows current oxygen in inspector
 
     [Header("Rates")]
     public float regenWhileMoving = 12f;
@@ -23,6 +23,11 @@ public class OxygenSystem : MonoBehaviour
 
     Rigidbody2D rb;
     object playerHealth;
+
+    [Header("Runtime Debug Values")]
+    [SerializeField] private float timeAtZeroOxygen = 0f;   // shows accumulated time
+    [SerializeField] private float currentDrain = 0f;       // shows drain applied this frame
+    [SerializeField] private float currentDamage = 0f;      // shows damage applied this frame
 
     void Awake()
     {
@@ -40,26 +45,53 @@ public class OxygenSystem : MonoBehaviour
     {
         float dt = Time.deltaTime;
 
-        // Use the new linearVelocity API for newest Unity versions
         Vector2 vel = rb != null ? rb.linearVelocity : Vector2.zero;
         float speed = vel.magnitude;
         bool moving = speed > movementThreshold;
 
         if (moving)
+        {
             oxygen += regenWhileMoving * dt;
+            currentDrain = -regenWhileMoving; // regen shown as negative drain
+        }
         else
-            oxygen -= drainWhileStill * dt;
+        {
+            float drain = drainWhileStill;
+
+            if (MainManager.Instance != null)
+            {
+                if (MainManager.Instance.ODeprivedCleanup == 1)
+                    drain -= 5f;
+                else if (MainManager.Instance.ODeprivedCleanup == 2)
+                    drain -= 10f;
+
+                drain = Mathf.Max(0f, drain);
+            }
+
+            currentDrain = drain;
+            oxygen -= drain * dt;
+        }
 
         oxygen = Mathf.Clamp(oxygen, 0f, maxOxygen);
         UpdateUI();
 
         if (oxygen <= 0f)
+        {
+            timeAtZeroOxygen += dt;
             ApplyZeroOxygenDamage(dt);
+        }
+        else
+        {
+            timeAtZeroOxygen = 0f;
+        }
     }
 
     void ApplyZeroOxygenDamage(float dt)
     {
-        int damage = Mathf.CeilToInt(damagePerSecondAtZero * dt);
+        float scaledDamage = damagePerSecondAtZero * (1f + timeAtZeroOxygen);
+        int damage = Mathf.CeilToInt(scaledDamage * dt);
+        currentDamage = damage; // record damage for inspector
+
         if (damage <= 0) return;
 
         if (playerHealth != null)

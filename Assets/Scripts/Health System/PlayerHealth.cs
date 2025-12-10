@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     public GameOverManager gameOverManager;
 
-    [SerializeField] private AudioClip playerTakeDamage;
+   
 
     [Header("UI (optional)")]
     [Tooltip("Image must be set to Image.Type = Filled")]
@@ -27,7 +27,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        SoundFXManager.Instance.PlaySoundFXClip(playerTakeDamage, transform, 0.2f);
         health -= amount;
         health = Mathf.Clamp(health, 0, maxHealth);
         UpdateUI();
