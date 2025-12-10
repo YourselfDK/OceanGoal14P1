@@ -14,6 +14,7 @@ public class EndScreenButtons : MonoBehaviour
         MainManager.Instance.MPlasticCleanup = 0;
         MainManager.Instance.ODeprivedCleanup = 0;
         MainManager.Instance.ToxicWasteCleanup = 0;
+        MainManager.Instance.Timer = 0;
 
         MainManager.Instance.ProtectedAreaBought = false;
         MainManager.Instance.BurnOilBought = false;
@@ -24,7 +25,8 @@ public class EndScreenButtons : MonoBehaviour
         MainManager.Instance.WasteWaterCleanupBought = false;
         MainManager.Instance.MinisterOfTheEnvironmentBought = false;
         MainManager.Instance.VoteBought = false;
-}
+        MainManager.Instance.PlayerIsRed = false;
+    }
 
     public void QuitGame()
     {
