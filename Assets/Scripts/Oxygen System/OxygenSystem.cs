@@ -24,6 +24,9 @@ public class OxygenSystem : MonoBehaviour
     Rigidbody2D rb;
     object playerHealth;
 
+    // Track how long oxygen has been at zero
+    float timeAtZeroOxygen = 0f;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -40,7 +43,6 @@ public class OxygenSystem : MonoBehaviour
     {
         float dt = Time.deltaTime;
 
-        // Use the new linearVelocity API for newest Unity versions
         Vector2 vel = rb != null ? rb.linearVelocity : Vector2.zero;
         float speed = vel.magnitude;
         bool moving = speed > movementThreshold;
@@ -54,12 +56,22 @@ public class OxygenSystem : MonoBehaviour
         UpdateUI();
 
         if (oxygen <= 0f)
+        {
+            timeAtZeroOxygen += dt; // accumulate time at zero
             ApplyZeroOxygenDamage(dt);
+        }
+        else
+        {
+            timeAtZeroOxygen = 0f; // reset when oxygen is restored
+        }
     }
 
     void ApplyZeroOxygenDamage(float dt)
     {
-        int damage = Mathf.CeilToInt(damagePerSecondAtZero * dt);
+        // Damage increases with time at zero oxygen
+        float scaledDamage = damagePerSecondAtZero * (1f + timeAtZeroOxygen);
+        int damage = Mathf.CeilToInt(scaledDamage * dt);
+
         if (damage <= 0) return;
 
         if (playerHealth != null)
