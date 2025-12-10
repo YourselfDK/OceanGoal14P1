@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public int health;
     public int maxHealth = 100;
     public GameOverManager gameOverManager;
-    public float colorChangeTimer = 0.5f;
+    float colorChangeTimer = 0.25f;
     
 
     [SerializeField] private AudioClip playerTakeDamage;
@@ -20,7 +20,7 @@ public class PlayerHealth : MonoBehaviour
     public Image healthFill;
 
     [SerializeField] SpriteRenderer p_SpriteRenderer;
-    [SerializeField] Color p_NewColor;
+    //[SerializeField] Color p_NewColor;
 
     void Start()
     {
@@ -37,13 +37,13 @@ public class PlayerHealth : MonoBehaviour
             if(colorChangeTimer > 0)
             {
                 Debug.Log("Color Change worked");
-                p_SpriteRenderer.color = p_NewColor;
+                p_SpriteRenderer.color = Color.red;
                 colorChangeTimer -= Time.deltaTime;
             }
             if(colorChangeTimer <= 0)
             {
                 p_SpriteRenderer.color = Color.white;
-                colorChangeTimer = 0.5f;
+                colorChangeTimer = 0.25f;
                 MainManager.Instance.PlayerIsRed = false;
             }
         }
