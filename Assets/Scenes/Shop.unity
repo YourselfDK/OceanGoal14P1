@@ -403,8 +403,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -7}
-  m_SizeDelta: {x: 360, y: 180}
+  m_AnchoredPosition: {x: 0, y: -0.0040283}
+  m_SizeDelta: {x: 360, y: 201.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &229770292
 MonoBehaviour:
@@ -960,6 +960,7 @@ RectTransform:
   m_LocalScale: {x: 5.35, y: 5.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1857739618}
   - {fileID: 1044400762}
   - {fileID: 1016080767}
   - {fileID: 1964766335}
@@ -2946,8 +2947,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -35.842285}
-  m_SizeDelta: {x: 0, y: -71.6846}
+  m_AnchoredPosition: {x: 0, y: -41.349335}
+  m_SizeDelta: {x: 0, y: -60.67049}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016080768
 MonoBehaviour:
@@ -3048,13 +3049,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1082367275}
-  - {fileID: 1857739618}
   m_Father: {fileID: 450221563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 69.906494}
-  m_SizeDelta: {x: 0, y: -139.8131}
+  m_AnchoredPosition: {x: 0, y: 76.2608}
+  m_SizeDelta: {x: 0, y: -127.10449}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044400763
 MonoBehaviour:
@@ -4643,11 +4643,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f227f7ec5b9d80b46bfd1a6f9869c3fc, type: 3}
+  m_Resource: {fileID: 8300000, guid: 198f3c82711a185419872697de8e7547, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5118,11 +5118,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 489933705}
-  m_Father: {fileID: 1044400762}
+  m_Father: {fileID: 450221563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 310.9, y: -16.8}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 312, y: -57}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1857739619

@@ -456,6 +456,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.371
@@ -890,6 +894,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.999
@@ -959,6 +967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1592913092}
   damage: 50
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!1001 &180193783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1281,6 +1290,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 7187164718427925061, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_Size.x
       value: 0.9
@@ -1323,6 +1336,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.334
@@ -1547,6 +1564,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1592913092}
   damage: 30
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!1001 &269036391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1647,6 +1665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1592913092}
   damage: 30
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!1 &293215761
 GameObject:
   m_ObjectHideFlags: 0
@@ -2229,6 +2248,81 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &377409480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 377409481}
+  - component: {fileID: 377409483}
+  - component: {fileID: 377409482}
+  m_Layer: 5
+  m_Name: GameOver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &377409481
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377409480}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 826011143}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 323}
+  m_SizeDelta: {x: 1203.6, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &377409482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377409480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -6615080203130585684, guid: fd54ad01869df164bbc3e2b3d0dd1d15, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &377409483
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377409480}
+  m_CullTransparentMesh: 1
 --- !u!1001 &383976795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3203,6 +3297,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 7187164718427925061, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_Size.x
       value: 1
@@ -3396,6 +3494,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.069
@@ -3646,6 +3748,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 1095953202541122894, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 4004384367024891089, guid: 1ab9b07d805ff554e91bfb9de0c2df19, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.15
@@ -3886,6 +3992,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipY
       value: 0
@@ -4452,8 +4562,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 556632936052040421, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1234373701778314858, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 377409481}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
 --- !u!114 &826011142 stripped
@@ -4467,6 +4581,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e8c239c119fc0b4aa6bf0553914c73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOverManager
+--- !u!224 &826011143 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1234373701778314858, guid: a5d0cd8be9e217f4ebb10babe9d7d5c2, type: 3}
+  m_PrefabInstance: {fileID: 826011141}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &848582031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4483,6 +4602,10 @@ PrefabInstance:
       propertyPath: gameOverManager
       value: 
       objectReference: {fileID: 826011142}
+    - target: {fileID: 1466834229900349488, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
+      propertyPath: playerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 3509125456632919422, guid: c501db0b55108e547b77d4ae3536c274, type: 3}
       propertyPath: m_Name
       value: Player
@@ -5049,6 +5172,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.423
@@ -5171,6 +5298,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -5392,6 +5523,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 7187164718427925061, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_Size.x
       value: 0.9
@@ -6144,6 +6279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1592913092}
   damage: 30
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!4 &1105293625 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5083525331329204469, guid: e0b11b24f5299d943881505ed34220a1, type: 3}
@@ -6378,6 +6514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1592913092}
   damage: 30
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!4 &1188673865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
@@ -6787,6 +6924,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6062039142042183544, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6710350332180797605, guid: 127abb9f3e491d342b44fc55deeb9f00, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -6841,6 +6982,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.032
@@ -6915,6 +7060,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.747
@@ -7385,6 +7534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1592913092}
   damage: 30
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!1 &1359389251
 GameObject:
   m_ObjectHideFlags: 0
@@ -7649,6 +7799,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.343
@@ -8022,6 +8176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1592913092}
   damage: 30
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!1 &1447066475 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 1a2ef8fd5dcfdf147ac7eb25713d0bf1, type: 3}
@@ -8114,6 +8269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1592913092}
   damage: 30
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!1001 &1471423557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8138,6 +8294,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.704
@@ -8212,6 +8372,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.06
@@ -8486,7 +8650,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 219395984}
   - {fileID: 1064831963}
   - {fileID: 941481292}
   - {fileID: 435396275}
@@ -8499,10 +8662,6 @@ Transform:
   - {fileID: 1993317755}
   - {fileID: 375359477}
   - {fileID: 1068814945}
-  - {fileID: 1093176374}
-  - {fileID: 264321584}
-  - {fileID: 1445745293}
-  - {fileID: 269036392}
   - {fileID: 1641877454}
   - {fileID: 877396484}
   - {fileID: 375735258}
@@ -8517,6 +8676,11 @@ Transform:
   - {fileID: 1429892565}
   - {fileID: 1417162539}
   - {fileID: 383976796}
+  - {fileID: 219395984}
+  - {fileID: 1093176374}
+  - {fileID: 264321584}
+  - {fileID: 1445745293}
+  - {fileID: 269036392}
   - {fileID: 1056825981}
   - {fileID: 1234237331}
   - {fileID: 1023944878}
@@ -9063,6 +9227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721350100}
   - component: {fileID: 1721350099}
+  - component: {fileID: 1721350101}
   m_Layer: 0
   m_Name: MainManager
   m_TagString: Untagged
@@ -9115,6 +9280,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1721350101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721350098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe0dbd7e22567d43a4d5ea4de8dda89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DisableObjectsByTags
+  FisherCleanup: 0
+  OilCleanup: 0
+  MPlasticCleanup: 0
+  ODeprivedCleanup: 0
+  ToxicWasteCleanup: 0
+  disableOnStart: 1
+  disableOnSceneLoad: 1
 --- !u!1001 &1727415629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9139,6 +9323,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.595
@@ -9593,6 +9781,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.709
@@ -10361,6 +10553,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1592913092}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.393

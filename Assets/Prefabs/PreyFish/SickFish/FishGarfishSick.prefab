@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FishGarfishSick
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: ee6ab234469ba4048b1ff73bef7d9885, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ee6ab234469ba4048b1ff73bef7d9885, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.697214
