@@ -475,12 +475,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Despite your strength and speed, no creature can survive in waters deprived
-    of oxygen
+  m_text: 'Despite your best efforts, no creature can survive in waters devoid of
+    oxygen
 
 
-    Throughout your journey, you passed through waters choked by
-    pollution and oxygen deprivation, a reality seen in many Danish waters today'
+    Throughout your journey, you passed through waters choked by pollution
+    and oxygen deprivation, a reality seen in many Danish waters today'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -819,7 +819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &775700133
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1765,11 +1765,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thank You For Playing
+  m_text: 'THANK YOU FOR PLAYING
 
 
     If you wish to learn more about the creatures
-    and dangers you faced, the encyclopedia is waiting for you in the main menu'
+    and dangers you faced, you can find the encyclopedia in the main menu'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
