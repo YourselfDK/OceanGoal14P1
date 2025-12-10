@@ -132,7 +132,7 @@ public class ShopItemVisual : MonoBehaviour
             MainManager.Instance.ODeprivedCleanup++;
             MainManager.Instance.OrganicFarmingBought = true;
         }
-        if (ItemType == "WastewaterCleanup")
+        if (ItemType == "WasteWaterCleanup")
         {
             MainManager.Instance.ODeprivedCleanup++;
             MainManager.Instance.WasteWaterCleanupBought = true;
