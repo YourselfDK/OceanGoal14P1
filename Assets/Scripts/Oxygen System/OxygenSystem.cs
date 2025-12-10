@@ -12,7 +12,7 @@ public class OxygenSystem : MonoBehaviour
     [Header("Rates")]
     public float regenWhileMoving = 12f;
     public float drainWhileStill = 20f;
-    public float damagePerSecondAtZero = 10f;
+    public float damagePerSecondAtZero = 5f;
 
     [Header("Movement")]
     public float movementThreshold = 0.1f;
