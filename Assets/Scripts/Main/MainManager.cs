@@ -26,6 +26,8 @@ public class MainManager : MonoBehaviour
     public bool MinisterOfTheEnvironmentBought = false;
     public bool VoteBought = false;
 
+    public bool PlayerIsRed = false;
+
     private void Awake()
     {
         if (Instance != null)

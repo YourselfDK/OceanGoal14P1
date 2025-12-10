@@ -6,7 +6,6 @@ public class EnemyDamage : MonoBehaviour
 {
     public PlayerHealth playerHealth;
     public int damage = 20;
-    [SerializeField] private AudioClip PlayerTakeDamage;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,8 +23,8 @@ public class EnemyDamage : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             Debug.Log("Triggered with Player");
+            MainManager.Instance.PlayerIsRed = true;
             playerHealth.TakeDamage(damage);
-            SoundFXManager.Instance.PlaySoundFXClip(PlayerTakeDamage, transform, 0.2f);
         }
     }
 }
