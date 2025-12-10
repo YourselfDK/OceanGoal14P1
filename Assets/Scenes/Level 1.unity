@@ -2920,6 +2920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1733803778}
   damage: 20
+  PlayerTakeDamage: {fileID: 0}
 --- !u!1001 &798659662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6172,7 +6173,6 @@ MonoBehaviour:
   health: 0
   maxHealth: 100
   gameOverManager: {fileID: 1080764846}
-  playerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
   healthFill: {fileID: 844063497}
 --- !u!114 &1733803785
 MonoBehaviour:
@@ -6204,8 +6204,8 @@ MonoBehaviour:
   maxOxygen: 100
   oxygen: 100
   regenWhileMoving: 12
-  drainWhileStill: 30
-  damagePerSecondAtZero: 10
+  drainWhileStill: 6
+  damagePerSecondAtZero: 5
   movementThreshold: 0.1
   oxygenFill: {fileID: 919248734}
 --- !u!1001 &1735224976
@@ -7735,6 +7735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1733803778}
   damage: 20
+  PlayerTakeDamage: {fileID: 0}
 --- !u!1001 &2128468207
 PrefabInstance:
   m_ObjectHideFlags: 0

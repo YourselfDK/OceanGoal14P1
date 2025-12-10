@@ -6857,6 +6857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1393947168}
   damage: 20
+  PlayerTakeDamage: {fileID: 0}
 --- !u!114 &1393947170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6888,7 +6889,7 @@ MonoBehaviour:
   oxygen: 100
   regenWhileMoving: 12
   drainWhileStill: 6
-  damagePerSecondAtZero: 10
+  damagePerSecondAtZero: 5
   movementThreshold: 0.1
   oxygenFill: {fileID: 2016585283}
 --- !u!4 &1401908838 stripped
