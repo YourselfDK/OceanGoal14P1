@@ -139,6 +139,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.815
@@ -711,6 +715,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.080999
@@ -915,6 +923,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.171
@@ -1213,6 +1225,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.249
@@ -1305,6 +1321,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.504
@@ -1510,6 +1530,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.625
@@ -1864,6 +1888,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.763
@@ -2019,6 +2047,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.937
@@ -2599,6 +2631,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.482
@@ -2664,6 +2700,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.2030005
@@ -3577,6 +3617,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.502
@@ -4406,6 +4450,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.542
@@ -6113,6 +6161,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.259
@@ -6405,6 +6457,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.892
@@ -6578,6 +6634,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.938
@@ -6917,6 +6977,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.441
@@ -7267,6 +7331,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.7930007
@@ -7663,6 +7731,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.6700006
@@ -7997,6 +8069,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.359
@@ -8240,6 +8316,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.385
@@ -8897,6 +8977,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.605
@@ -9680,6 +9764,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.035
@@ -9869,6 +9957,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.628
@@ -10301,6 +10393,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 6390663903863659324, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     - target: {fileID: 6868570782792027549, guid: b1124e86583429e4bb5caf4b0e967093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.953
@@ -10688,6 +10784,10 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1393947168}
+    - target: {fileID: 7775702893320296348, guid: 4c2f6caa9d35dcf4db492f57e5088401, type: 3}
+      propertyPath: PlayerTakeDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
