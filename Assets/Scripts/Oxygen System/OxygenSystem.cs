@@ -121,6 +121,7 @@ public class OxygenSystem : MonoBehaviour
         float scaledDamage = damagePerSecondAtZero * multiplier * damageInterval;
         int damage = Mathf.CeilToInt(scaledDamage);
         currentDamage = damage;
+        MainManager.Instance.PlayerIsRed = true;
 
         Debug.Log($"[OxygenSystem] Damage Tick: {damage}, Multiplier: {multiplier:F2}, ElapsedZeroO2: {elapsedZeroOxygenTime:F2}s");
 
