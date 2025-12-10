@@ -15,6 +15,9 @@ public class PlayerHealth : MonoBehaviour
     [Tooltip("Image must be set to Image.Type = Filled")]
     public Image healthFill;
 
+    SpriteRenderer p_SpriteRenderer;
+    Color p_NewColor;
+
     void Start()
     {
         health = maxHealth;
@@ -37,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
     {
         int dmg = Mathf.CeilToInt(amount);
         TakeDamage(dmg);
+        p_SpriteRenderer.color = Color.red;
     }
 
     public void Heal(int amount)

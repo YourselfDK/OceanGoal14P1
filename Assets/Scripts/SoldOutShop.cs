@@ -67,7 +67,7 @@ public class ShopItemVisual : MonoBehaviour
                 isSoldOut = true;
                 UpdateUI();
             }
-            if (ItemType == "WastewaterCleanup" && MainManager.Instance.WasteWaterCleanupBought)
+            if (ItemType == "WasteWaterCleanup" && MainManager.Instance.WasteWaterCleanupBought)
             {
                 isSoldOut = true;
                 UpdateUI();
@@ -132,7 +132,7 @@ public class ShopItemVisual : MonoBehaviour
             MainManager.Instance.ODeprivedCleanup++;
             MainManager.Instance.OrganicFarmingBought = true;
         }
-        if (ItemType == "WastewaterCleanup")
+        if (ItemType == "WasteWaterCleanup")
         {
             MainManager.Instance.ODeprivedCleanup++;
             MainManager.Instance.WasteWaterCleanupBought = true;

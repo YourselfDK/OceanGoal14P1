@@ -7,7 +7,7 @@ public class OxygenSystem : MonoBehaviour
 {
     [Header("Oxygen")]
     public float maxOxygen = 100f;
-    public float oxygen = 100f;
+    [SerializeField] private float oxygen = 100f;   // shows current oxygen in inspector
 
     [Header("Rates")]
     public float regenWhileMoving = 12f;
@@ -24,8 +24,10 @@ public class OxygenSystem : MonoBehaviour
     Rigidbody2D rb;
     object playerHealth;
 
-    // Track how long oxygen has been at zero
-    float timeAtZeroOxygen = 0f;
+    [Header("Runtime Debug Values")]
+    [SerializeField] private float timeAtZeroOxygen = 0f;   // shows accumulated time
+    [SerializeField] private float currentDrain = 0f;       // shows drain applied this frame
+    [SerializeField] private float currentDamage = 0f;      // shows damage applied this frame
 
     void Awake()
     {
@@ -50,19 +52,23 @@ public class OxygenSystem : MonoBehaviour
         if (moving)
         {
             oxygen += regenWhileMoving * dt;
+            currentDrain = -regenWhileMoving; // regen shown as negative drain
         }
         else
         {
-            // Base drain
             float drain = drainWhileStill;
 
-            // ✅ Check MainManager.Instance.ODeprivedCleanup
-            if (MainManager.Instance != null && MainManager.Instance.ODeprivedCleanup == 1)
+            if (MainManager.Instance != null)
             {
-                drain -= 5f; // reduce drain by 5
-                drain = Mathf.Max(0f, drain); // safety: prevent negative drain
+                if (MainManager.Instance.ODeprivedCleanup == 1)
+                    drain -= 5f;
+                else if (MainManager.Instance.ODeprivedCleanup == 2)
+                    drain -= 10f;
+
+                drain = Mathf.Max(0f, drain);
             }
 
+            currentDrain = drain;
             oxygen -= drain * dt;
         }
 
@@ -82,9 +88,9 @@ public class OxygenSystem : MonoBehaviour
 
     void ApplyZeroOxygenDamage(float dt)
     {
-        // Damage increases with time at zero oxygen
         float scaledDamage = damagePerSecondAtZero * (1f + timeAtZeroOxygen);
         int damage = Mathf.CeilToInt(scaledDamage * dt);
+        currentDamage = damage; // record damage for inspector
 
         if (damage <= 0) return;
 

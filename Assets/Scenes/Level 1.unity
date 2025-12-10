@@ -7735,7 +7735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
   playerHealth: {fileID: 1733803778}
   damage: 20
-  PlayerTakeDamage: {fileID: 0}
+  PlayerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
 --- !u!1001 &2128468207
 PrefabInstance:
   m_ObjectHideFlags: 0
