@@ -245,4 +245,3 @@ MonoBehaviour:
   playerTakeDamage: {fileID: 8300000, guid: 9831c1bc744a9954183fa738b54aa64f, type: 3}
   healthFill: {fileID: 0}
   p_SpriteRenderer: {fileID: 3203153834521524932}
-  p_NewColor: {r: 0, g: 0, b: 0, a: 0}

@@ -200,6 +200,10 @@ public class FleeFromPlayer : MonoBehaviour
             if (playerHealth != null)
             {
                 playerHealth.Heal(healthAmount);
+                if (healthAmount < 0)
+                {
+                    MainManager.Instance.PlayerIsRed = true;
+                }
             }
 
             SoundFXManager.Instance.PlaySoundFXClip(eatingSound, collision.transform, 0.2f);
