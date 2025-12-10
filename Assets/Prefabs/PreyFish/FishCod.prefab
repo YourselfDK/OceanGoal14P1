@@ -108,7 +108,7 @@ MonoBehaviour:
   rightLimit: 10
   verticalAmplitude: 0.2
   verticalFrequency: 1
-  healthAmount: 15
+  healthAmount: 25
   startDirection: 2
   spriteBaseFacing: 1
   eatingSound: {fileID: 8300000, guid: 0f245edc9df5161449f849085f4d68cc, type: 3}
