@@ -766,7 +766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This mechanic removes oil from the ocean
+      value: This mechanic partially removes oil from the ocean
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
@@ -1213,7 +1213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This mechanic removes oil from the ocean
+      value: This mechanic partially removes oil from the ocean
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
@@ -2152,7 +2152,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This mechanic removes toxic waste from the ocean.
+      value: This mechanic partially removes toxic waste from the ocean and reduces
+        oxygen drain.
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
@@ -2825,7 +2826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This mechanic removes microplastics from the ocean
+      value: This mechanic partially removes microplastics from the ocean
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
@@ -3956,7 +3957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This mechanic removes microplastics from the ocean
+      value: This mechanic partially removes microplastics from the ocean
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
@@ -4500,7 +4501,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: 'With a vote, you can access the shop and make a change in the ocean. '
+      value: 'With a vote, you can access the shop and make a change in the ocean
+        and the world. '
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
@@ -4932,7 +4934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This mechanic removes toxic waste from the ocean
+      value: This mechanic partially removes toxic waste from the ocean
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
@@ -5968,7 +5970,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This mechanic removes toxic waste from the ocean.
+      value: This mechanic partially removes toxic waste from the ocean and reduces
+        oxygen drain
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
@@ -6185,7 +6188,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_text
-      value: This mechanic removes Illegal, Unreported and Unregulated fishing boats.
+      value: This mechanic partially removes Illegal, Unreported and Unregulated
+        fishing boats.
       objectReference: {fileID: 0}
     - target: {fileID: 3761340784822334565, guid: 59061f4e9aff8447097c8a9a79ef96db, type: 3}
       propertyPath: m_fontSize
