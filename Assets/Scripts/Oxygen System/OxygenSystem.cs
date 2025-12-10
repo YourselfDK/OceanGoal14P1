@@ -7,12 +7,20 @@ public class OxygenSystem : MonoBehaviour
 {
     [Header("Oxygen")]
     public float maxOxygen = 100f;
-    [SerializeField] private float oxygen = 100f;   // shows current oxygen in inspector
+    [SerializeField] private float oxygen = 100f;
 
     [Header("Rates")]
     public float regenWhileMoving = 12f;
     public float drainWhileStill = 20f;
     public float damagePerSecondAtZero = 10f;
+
+    [Header("Damage Ramp Settings")]
+    [Tooltip("Rate at which damage multiplier increases per second at zero oxygen")]
+    public float damageRampRate = 0.1f;
+    [Tooltip("Maximum multiplier applied to base damage")]
+    public float maxDamageMultiplier = 2f;
+    [Tooltip("Interval in seconds between damage ticks at zero oxygen")]
+    public float damageInterval = 2f; // NEW
 
     [Header("Movement")]
     public float movementThreshold = 0.1f;
@@ -25,9 +33,13 @@ public class OxygenSystem : MonoBehaviour
     object playerHealth;
 
     [Header("Runtime Debug Values")]
-    [SerializeField] private float timeAtZeroOxygen = 0f;   // shows accumulated time
-    [SerializeField] private float currentDrain = 0f;       // shows drain applied this frame
-    [SerializeField] private float currentDamage = 0f;      // shows damage applied this frame
+    [SerializeField] private float timeAtZeroOxygen = 0f;   // accumulated time at zero O2
+    [SerializeField] private float currentDrain = 0f;
+    [SerializeField] private int currentDamage = 0;
+    [SerializeField] private float currentMultiplier = 1f;
+    [SerializeField] private float lastZeroOxygenTime = 0f; // game time when oxygen hit zero
+    [SerializeField] private float elapsedZeroOxygenTime = 0f; // how long since oxygen hit zero
+    [SerializeField] private float lastDamageTime = 0f; // NEW: last time damage was applied
 
     void Awake()
     {
@@ -52,7 +64,7 @@ public class OxygenSystem : MonoBehaviour
         if (moving)
         {
             oxygen += regenWhileMoving * dt;
-            currentDrain = -regenWhileMoving; // regen shown as negative drain
+            currentDrain = -regenWhileMoving;
         }
         else
         {
@@ -77,20 +89,40 @@ public class OxygenSystem : MonoBehaviour
 
         if (oxygen <= 0f)
         {
+            if (timeAtZeroOxygen == 0f) // first frame oxygen hits zero
+                lastZeroOxygenTime = Time.time;
+
             timeAtZeroOxygen += dt;
-            ApplyZeroOxygenDamage(dt);
+            elapsedZeroOxygenTime = Time.time - lastZeroOxygenTime;
+
+            ApplyZeroOxygenDamage();
         }
         else
         {
             timeAtZeroOxygen = 0f;
+            elapsedZeroOxygenTime = 0f;
         }
     }
 
-    void ApplyZeroOxygenDamage(float dt)
+    void ApplyZeroOxygenDamage()
     {
-        float scaledDamage = damagePerSecondAtZero * (1f + timeAtZeroOxygen);
-        int damage = Mathf.CeilToInt(scaledDamage * dt);
-        currentDamage = damage; // record damage for inspector
+        // Only apply damage once every damageInterval seconds
+        if (Time.time - lastDamageTime < damageInterval)
+            return;
+
+        lastDamageTime = Time.time;
+
+        // Ramp damage based on elapsed zero oxygen time
+        float multiplier = 1f + elapsedZeroOxygenTime * damageRampRate;
+        multiplier = Mathf.Min(multiplier, maxDamageMultiplier);
+        currentMultiplier = multiplier;
+
+        // Scale damage to represent per-second rate applied once every interval
+        float scaledDamage = damagePerSecondAtZero * multiplier * damageInterval;
+        int damage = Mathf.CeilToInt(scaledDamage);
+        currentDamage = damage;
+
+        Debug.Log($"[OxygenSystem] Damage Tick: {damage}, Multiplier: {multiplier:F2}, ElapsedZeroO2: {elapsedZeroOxygenTime:F2}s");
 
         if (damage <= 0) return;
 
