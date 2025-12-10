@@ -12,7 +12,7 @@ public class OxygenSystem : MonoBehaviour
     [Header("Rates")]
     public float regenWhileMoving = 12f;
     public float drainWhileStill = 20f;
-    public float damagePerSecondAtZero = 5f;
+    public float damagePerSecondAtZero = 10f;
 
     [Header("Movement")]
     public float movementThreshold = 0.1f;
@@ -48,21 +48,35 @@ public class OxygenSystem : MonoBehaviour
         bool moving = speed > movementThreshold;
 
         if (moving)
+        {
             oxygen += regenWhileMoving * dt;
+        }
         else
-            oxygen -= drainWhileStill * dt;
+        {
+            // Base drain
+            float drain = drainWhileStill;
+
+            // ✅ Check MainManager.Instance.ODeprivedCleanup
+            if (MainManager.Instance != null && MainManager.Instance.ODeprivedCleanup == 1)
+            {
+                drain -= 5f; // reduce drain by 5
+                drain = Mathf.Max(0f, drain); // safety: prevent negative drain
+            }
+
+            oxygen -= drain * dt;
+        }
 
         oxygen = Mathf.Clamp(oxygen, 0f, maxOxygen);
         UpdateUI();
 
         if (oxygen <= 0f)
         {
-            timeAtZeroOxygen += dt; // accumulate time at zero
+            timeAtZeroOxygen += dt;
             ApplyZeroOxygenDamage(dt);
         }
         else
         {
-            timeAtZeroOxygen = 0f; // reset when oxygen is restored
+            timeAtZeroOxygen = 0f;
         }
     }
 
