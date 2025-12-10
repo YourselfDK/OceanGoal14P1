@@ -6948,7 +6948,7 @@ MonoBehaviour:
   maxOxygen: 100
   oxygen: 100
   regenWhileMoving: 12
-  drainWhileStill: 6
+  drainWhileStill: 12
   damagePerSecondAtZero: 5
   movementThreshold: 0.1
   oxygenFill: {fileID: 2016585283}
