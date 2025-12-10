@@ -24,7 +24,6 @@ public class OxygenSystem : MonoBehaviour
     Rigidbody2D rb;
     object playerHealth;
 
-    // Track how long oxygen has been at zero
     float timeAtZeroOxygen = 0f;
 
     void Awake()
@@ -56,11 +55,20 @@ public class OxygenSystem : MonoBehaviour
             // Base drain
             float drain = drainWhileStill;
 
-            // ✅ Check MainManager.Instance.ODeprivedCleanup
-            if (MainManager.Instance != null && MainManager.Instance.ODeprivedCleanup == 1)
+            // ✅ Adjust drain based on ODeprivedCleanup
+            if (MainManager.Instance != null)
             {
-                drain -= 5f; // reduce drain by 5
-                drain = Mathf.Max(0f, drain); // safety: prevent negative drain
+                if (MainManager.Instance.ODeprivedCleanup == 1)
+                {
+                    drain -= 5f;
+                }
+                else if (MainManager.Instance.ODeprivedCleanup == 2)
+                {
+                    drain -= 10f;
+                }
+
+                // Safety: prevent negative drain
+                drain = Mathf.Max(0f, drain);
             }
 
             oxygen -= drain * dt;
@@ -82,7 +90,6 @@ public class OxygenSystem : MonoBehaviour
 
     void ApplyZeroOxygenDamage(float dt)
     {
-        // Damage increases with time at zero oxygen
         float scaledDamage = damagePerSecondAtZero * (1f + timeAtZeroOxygen);
         int damage = Mathf.CeilToInt(scaledDamage * dt);
 
