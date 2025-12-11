@@ -10,6 +10,7 @@ public class MainManager : MonoBehaviour
     public int LevelCount;
     public bool InShop = false;
     public float Timer;
+    public int TimerInSeconds;
 
     public int FisherCleanup = 0; //Protected Area
     public int OilCleanup = 0; // Burn Oil + Mechanical Removal

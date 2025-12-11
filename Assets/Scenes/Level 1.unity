@@ -837,6 +837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadShop
   WhatIsNextLevel: 2
+  WhatIsFinalLevel: 6
   CoinManager: {fileID: 1733803785}
 --- !u!61 &258106465
 BoxCollider2D:
@@ -2418,7 +2419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &592320040
 Transform:
   m_ObjectHideFlags: 0
@@ -5878,6 +5879,7 @@ MonoBehaviour:
   LevelCount: 1
   InShop: 0
   Timer: 0
+  TimerInSeconds: 0
   FisherCleanup: 0
   OilCleanup: 0
   MPlasticCleanup: 0
