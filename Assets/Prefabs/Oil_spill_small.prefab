@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_FlipY
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 1846bdc2d59dbb742978587eb5256ba0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5582863566948525245, guid: 946310613252d2645ad508da602ff298, type: 3}
     - target: {fileID: 7878350319992209165, guid: 1846bdc2d59dbb742978587eb5256ba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.27

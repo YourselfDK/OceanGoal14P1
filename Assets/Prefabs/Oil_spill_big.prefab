@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: OilspillTough
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: eb904d0045069d4438d2cead825ddd0c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6588875584340393166, guid: 69153850174d841409aad8951b5fbf18, type: 3}
     - target: {fileID: 7878350319992209165, guid: eb904d0045069d4438d2cead825ddd0c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.53
