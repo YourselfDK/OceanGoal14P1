@@ -11,7 +11,13 @@ public class LeaveShop : MonoBehaviour
         exitButton.onClick.AddListener(ExitShop);
     }
 
-    //private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            ExitShop();
+        }
+    }
     private void ExitShop()
     {
             MainManager.Instance.InShop = false;
