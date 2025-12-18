@@ -40,16 +40,16 @@ public class ShopItemVisual : MonoBehaviour
             UpdateUI();
         }
 
-            if (ItemType == "BurnOil" && MainManager.Instance.BurnOilBought)
-            {
-                isSoldOut = true;
-                UpdateUI();
-            }
-            if (ItemType == "MechanicalRemoval" && MainManager.Instance.MechanicalRemovalBought)
-            {
-                isSoldOut = true;
-                UpdateUI();
-            }
+        if (ItemType == "BurnOil" && MainManager.Instance.BurnOilBought)
+        {                
+            isSoldOut = true;
+            UpdateUI();
+        }
+        if (ItemType == "MechanicalRemoval" && MainManager.Instance.MechanicalRemovalBought)
+        {
+            isSoldOut = true;
+            UpdateUI();
+        }
 
             if (ItemType == "PublicTransport" && MainManager.Instance.PublicTransportBought)
             {
